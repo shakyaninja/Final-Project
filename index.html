@@ -4,18 +4,254 @@
 	    <!-- Required meta tags -->
 	    <meta charset="utf-8">
 	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	    <link rel="stylesheet" type="text/css" href="./CSS/style.css">
+	    <link rel="stylesheet" type="text/css" href="./css/style.css">
 	    <!-- Bootstrap CSS -->
+        <!-- <link rel="stylesheet" type="text/css" href="./css/docs.min.css"> !in case of no internet connection   -->
 	    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 	    <title>Urban Ladder</title>
 	</head>
     <body>
     	<header>
-    		
+    		<div class="container" >
+    			<div class="row">
+    				<div class="col">Phone</div>
+    				<div class="col">Mail</div>
+    				<div class="col"></div>
+    				<div class="col">Stores</div>
+    				<div class="col">Designers & Architects</div>
+    				<div class="col">Bulk orders</div>
+    				<div class="col">Gift Cards</div>
+    				<div class="col">Furniture Exchange</div>
+    			</div>
+    		</div>
+    		<div class="container" >
+    			<div class="row">
+    				<div class="col">
+    					<!-- <section class="logo">
+	    					<svg xmlns="http://www.w3.org/2000/svg" width="50" height="37" viewBox="0 0 50 37" class="logo-with-gradient">
+	  							<defs>
+								    <linearGradient id="a" x1="0%" y1="50%" y2="50%">
+									      <stop offset="0%" stop-color="#EC8523"></stop>
+									      <stop offset="35%" stop-color="#ED7745"></stop>
+									      <stop offset="37%" stop-color="#ED7545"></stop>
+									      <stop offset="76%" stop-color="#E95D47"></stop>
+									      <stop offset="100%" stop-color="#E85448"></stop>
+								    </linearGradient>
+								  </defs>
+								  	<polygon fill="url(#a)" fill-rule="evenodd" points="0 0 0 36.201 33.604 36.201 33.604 31.948 4.359 31.948 4.359 4.253 45.641 4.253 45.641 36.201 50 36.201 50 0"></polygon>
+							</svg>
+							<svg xmlns="http://www.w3.org/2000/svg" width="213" height="107" viewBox="0 0 213 107" class="logo-text">
+							  <g fill="#2F4858">
+							    <path d="M20.28 46.3C8.68 46.3 0 39.6 0 24.68V.93h9.1V24.4c0 9.5 4.12 14.2 11.32 14.2s11.3-4.7 11.3-14.2V.9h8.76v23.7c0 14.9-8.6 21.6-20.2 21.6v.1zm37.46-18.6v17.35h-8.52v-31.8h7.8l.37 5.8c1.8-3.66 6.4-6.68 11.8-6.68v8.3c-5.8-1.35-11.5 1.6-11.5 7.03zM93.9 45.93c-4.5 0-9.2-2.06-11.83-5.95l-.3 5.07h-7.7V.93h8.5v16.7c2.8-3.38 6.96-5.3 11.33-5.23 8.58 0 14.9 7.2 14.9 16.77 0 9.55-6.3 16.76-14.9 16.76zm-2.65-27.2c-5 0-9.03 3.9-9.03 10.44 0 6.55 4.04 10.45 9.03 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.04-10.44-9.03-10.44zm49.3 26.32l-.3-5.07c-2.65 3.9-7.35 5.95-11.83 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.48 0 9.18 2.06 11.83 5.96l.3-5.08h7.7v31.77h-7.7zm-9.48-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.03-10.44-9.03-10.44zm48.56 26.32V27.48c0-6.18-2.14-8.24-6.02-8.24-4 0-8.4 3.68-8.4 8.1v17.72h-8.5v-31.8h7.8l.4 5.88c2.2-4.05 6.9-6.77 11.8-6.77 8.5 0 11.6 5.9 11.6 13.75v18.9h-8.5v.03h-.13zm-179.4 61V61.93h8.95v37.13h19.77v7H.23zm58.62 0l-.3-5.07c-2.63 3.9-7.33 5.95-11.82 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.5 0 9.2 2.06 11.83 5.96l.3-5.08h7.72v31.77h-7.72zm-9.47-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4-10.44-9-10.44zm50.76 26.32l-.3-5.07c-2.64 3.9-7.34 5.95-11.82 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.37-.07 8.53 1.85 11.3 5.22v-16.7h8.54v44.13h-7.72zm-9.5-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.03-10.44-9.03-10.44zm50.78 26.32l-.3-5.07c-2.64 3.9-7.34 5.95-11.83 5.95-8.6 0-15-7.2-15-16.76 0-9.56 6.3-16.77 14.9-16.77 4.4-.07 8.5 1.85 11.3 5.22v-16.7h8.5v44.13h-7.7.1zm-9.48-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.02-10.44-9.02-10.44zm53.43 10.67H164.2c-.2 4.84 2.3 10.34 10.83 10.34 3.75-.1 7.37-1.4 10.3-3.75v6.1c-3.02 2.3-7.65 3.7-12.94 3.7-9.8 0-16.7-7.2-16.7-17 0-10.2 7.8-16.6 16-16.6 8.1 0 14.1 5 14.1 12.5 0 1.5-.2 3-.6 4.42l.13.24zM172 78.83c-3.58 0-6.7 2.06-7.42 7h13.6c.72-3.84-1.77-7-6.18-7zm29.53 9.87v17.35H193v-31.8h7.78l.37 5.8c1.83-3.66 6.43-6.68 11.83-6.68v8.3c-5.76-1.35-11.45 1.6-11.45 7.03z">
+							    </path>
+							  </g>
+							</svg>
+    					</section> -->
+					</div>
+    				<div class="col"><input type="search" name="search" placeholder="Search" class="searchbox"></div>
+    				<div class="col">icon</div>
+    				<div class="col">icon</div>
+    				<div class="col">icon</div>
+    				<div class="col">icon</div>
+    			</div>
+    			<div class="row sticky">
+    				<div class="col">Sale</div>
+    				<div class="col">Living</div>
+    				<div class="col">Bedroom</div>
+    				<div class="col">Dining</div>
+    				<div class="col">Storage</div>
+    				<div class="col">Study</div>
+    				<div class="col">Mattresses</div>
+    				<div class="col">Interiors</div>
+    				<div class="col">Decor</div>
+    				<div class="col">Collections</div>
+    				<div class="col">New</div>
+    			</div>
+    		</div>	
+    		<div class="container">
+    			<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+    			  <div class="carousel-inner">
+    			    <div class="carousel-item active">
+    			      <img class="d-block w-100" src="http://via.placeholder.com/800x400" alt="First slide">
+    			    </div>
+    			    <div class="carousel-item">
+    			      <img class="d-block w-100" src="http://via.placeholder.com/800x400" alt="Second slide">
+    			    </div>
+    			    <div class="carousel-item">
+    			      <img class="d-block w-100" src="http://via.placeholder.com/800x400" alt="Third slide">
+    			    </div>
+    			  </div>
+    			</div>
+    		</div>
     	</header>
-    	<!-- <img src=""> -->
-    	<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 30 30" class="category-icon"><title>UL_CATEGORY_ICONS</title><path d="M27.5 19.4H27v-1a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v1h-.5A2.48 2.48 0 0 0 0 21.9v4a2.48 2.48 0 0 0 2.5 2.5h.2v1.1a.47.47 0 0 0 .5.5H5a.47.47 0 0 0 .5-.5v-1.1h19.2v1.1a.47.47 0 0 0 .5.5H27a.47.47 0 0 0 .5-.5v-1.1h.1a2.48 2.48 0 0 0 2.5-2.5v-4a2.63 2.63 0 0 0-2.6-2.5zM4 18.4a3 3 0 0 1 3-3h16a3 3 0 0 1 3 3v1.5a2.61 2.61 0 0 0-1 2v1.5H5v-1.5a2.61 2.61 0 0 0-1-2v-1.5zM4.4 29h-.8v-.6h.8v.6zm22 0h-.8v-.6h.8v.6zm2.6-3.1a1.54 1.54 0 0 1-1.5 1.5h-25A1.54 1.54 0 0 1 1 25.9v-4a1.54 1.54 0 0 1 1.5-1.5A1.54 1.54 0 0 1 4 21.9v2a.47.47 0 0 0 .5.5h21a.47.47 0 0 0 .5-.5v-2a1.5 1.5 0 0 1 3 0v4z"></path><circle cx="8.6" cy="19.2" r=".4"></circle><circle cx="15" cy="19.2" r=".4"></circle><circle cx="21.4" cy="19.2" r=".4"></circle></svg>
+    	<div class="container">
+    		<div class="row">
+    			<div class="col"></div>
+    			<div class="col">
+    				<div class="header">
+    					<span>Explore Our Furniture Range</span>
+    				</div>
+    			</div>
+    			<div class="col"></div>
+    		</div>
+    		<div class="row">
+    			<div class="col">
+    				​<img src="svgsofa.svg"/ alt="Sofas">			
+    			</div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    		</div>
+    		<div class="row">
+    			<div class="col"></div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    			<div class="col"></div>
+    		</div>
+    	</div>
+    <div class="container">
+    	<div class="row">
+    		<div class="card" style="width: 50rem;">
+		    <div class="card-body">
+		 	    <p class="card-text">Sure, your seating needs to be comfy and ergonomically sound. But why can't it be gorgeous too? Our goal every time we design a piece is to hit this sweet spot. To make something that's as easy on the eyes as it is on your tushie.</p>
+		    </div>
+	    	<img class="card-img-bottom" src="https://ul-a.akamaihd.net/media/collections/listing/Marketing_Banner_-_Top.jpg?1521693981" alt="Card image cap">
+    	</div>
+    	<div class="row">
+    		<div class="col">
+    			<div class="card" style="width: 25rem;">
+    				<div class="card-body">
+    					 <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+    				</div>
+    				<img class="card-img-bottom" src="https://ul-a.akamaihd.net/media/collections/listing/Marketing_Banner_-_Left.jpg?1521694036" alt="Card image cap">
+    			</div>
+    		</div>
+    		<div class="col">
+    			<div class="card" style="width: 25rem;">
+    				<div class="card-body">
+    					<!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+    				</div>
+    				<img class="card-img-bottom" src="https://ul-a.akamaihd.net/media/collections/listing/Marketing_Banner_-_Right.jpg?1521694012" alt="Card image cap">
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <div class="container">
+    	<div class="header">
+    		<span>Smart Look</span>
+    	</div>
+    	<div class="row">
+    		<div class="col">
+    			<img src="https://ul-a.akamaihd.net/media/collections/listing/In_The_Spotlight_-_Main.jpg?1521697894">
+    		</div>
+    		<div class="col">
+    			<img src="https://ul-a.akamaihd.net/media/collections/listing/In_The_Spotlight_-_Small.jpg?1521697901">
+    			<h1>Pulling An All-Nighter?</h1>
+    			<p>Ouch...that's never pretty. But the good news? You can count on these ergonomic study designs to make hard work a little easier.</p>
+    			<button class="btn-primary">Explore Now</button>
+    		</div>
+    	</div>
+    </div>
+    <!-- list of new arrivals -->
+    <div class="container ">
+    	<span><h2>NEW ARRIVALS</h2></span>
+    	<div class="row">
+    		<div class="card" style="width: 20rem;">
+    			<img class="card-img-top" src="./IMG/New-Arrivals-1.jpg" alt="Card image 1">
+    			<div class="card-body">
+    				<h3>WESTTON LEATHERETTE SOFA</h3>
+    				<button class="btn-primary">Shop Now</button>	
+    			</div>
+    		</div>
+    		<div class="card" style="width: 20rem;">
+    			<img class="card-img-top" src="./IMG/New-Arrivals-8.jpg" alt="Card image 2">
+    			<div class="card-body">
+    				 <h3>SNNOZY PET COLLECTION</h3>
+    				 <button class="btn-primary">Shop Now</button>
+    			</div>
+    		</div>
+    		<div class="card" style="width: 20rem;">
+    			<img class="card-img-top" src="https://ul-a.akamaihd.net/media/collections/listing/New-Arrivals-5.jpg?1520839656" alt="Card image 3">
+    			<div class="card-body">
+    				 <h3>VERLET CHEST OF DRAWERS</h3>
+    				 <button class="btn-primary">Shop Now</button>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+    <!-- end of list of new arrivals -->
+    <!-- start of customer reviews -->
+    <div class="container">
+    	<span><h1>CUSTOMERS STORIES</h1> </span>
+    	<div class="card-deck">
+	    	<div class="card" style="max-height: 150px">
+	    	    <img class="card-img-top" width="auto" src="https://ul-a.akamaihd.net/testimonials/250x300/2647_20160821075017.jpg" alt="Card image cap">
+	    	    <div class="card-body">
+	    	      <h5 class="card-title">Alexandria Book Shelf</h5>
+	    	      <button class="btn-primary">VIEW PRODUCT</button>
+	    	      <p class="card-text">Having beutiful furniture in your home is about modernity or sophistication or cult. It is very musch a necessity for a healthy outlook to your own life...#ULstory #Happysouls</p>
+	    	    </div>
+		    	<div class="card-footer">
+		    	    <small class="text-muted">Last updated 3 mins ago</small>
+		    	</div>
+    	  	</div>
+    	  	<div class="card" style="max-height: 150px">
+    	    	<img class="card-img-top" width="auto" src="https://ul-a.akamaihd.net/testimonials/250x300/2607_20160808061023.jpg" alt="Card image cap">
+    	    	<div class="card-body">
+    	      		<h5 class="card-title">Williams Bed</h5>
+    	      		<button class="btn-primary">VIEW PRODUCT</button>
+    	      		<p class="card-text">#ULStory Thanks to Urban Ladder. Desperately wanted a bigger bed for my son's room. Picked Williams Bed with lovely finish</p>
+    	    	</div>
+    	    	<div class="card-footer">
+    	      		<small class="text-muted">Last updated 3 mins ago</small>
+    	   		 </div>
+    	  	</div>
+    	  	<div class="card" style="max-height: 150px">
+    	    	<img class="card-img-top" width="auto" src="https://ul-a.akamaihd.net/testimonials/250x300/2601_20160807043752.jpg" alt="Card image cap">
+    	   		<div class="card-body">
+		    	    <h5 class="card-title">Striado TV Unit</h5>
+		    	    <button class="btn-primary">VIEW PRODUCT</button>
+		    	    <p class="card-text">#Ulstory Straido TV Unit,just can't stop looking at it every time we enter the room. It has delivered much more than expeected, a storage cum display unit and a object of our admiration. We just love it!</p>
+    	    	</div>
+    	    <div class="card-footer">
+    	      	<small class="text-muted">Last updated 3 mins ago</small>
+    	    </div>
+    	  </div>
+    	</div>
+    </div>
+    
+    <!-- End of customer reviews -->
+    <div class="container">
+    	<div class="row">
+    		<header>Urban Ladder</header>
+		</div>
+    	<pre><p>
+    		Urban Ladder offers a unique selection of stylish, contemporary, and chic furniture online. Our online furniture range includes sofa sets, beds, dining tables, TV units, cupboards, dressing tables, sofa cum beds, study tables, mattress, computer tables and lots more. All our wooden furniture designs are available online at urbanladder.com. On our portal, you can browse as many furniture designs across categories as you like, sort and filter, compare options, easily select and buy the ones you like, and stay updated about new and contemporary designs.
 
+    		Furniture is what turns your house into a home. Well-designed furniture is not just functional or utilitarian (for example, tables and desks for work or cabinets for storage) but also a reflection of your taste and style. We have hundreds of furniture designs in solid wood, engineered wood, metal, etc., as well as soft furnishings and home decor items.
+
+    		As an online furniture company, we know that service is as important as our products. That's why we pay attention to every detail of the process, from the time of ordering till your order reaches your home, and even afterwards.
+
+    		The furniture you choose for a room can make or break it. The furniture designs you choose are what determine the personality of the room and say something about the inhabitants of the house. Modern furniture design is all about finding the right balance between design and functionality, while traditional designs have evolved over time, reflecting the fashion fads of each period. Whether you are on the lookout for modern designs or more traditional styles, there are some features to keep an eye out for.
+
+    		Before you shop for home furniture designs, the first step is to picture the fully furnished rooms in your mind. What do you want each space to be used for? Will it be a private space, for family, or for entertaining? Secondly, consider the layout of each space, including the position of doors and windows, to understand how many and how big your furniture pieces can be, while still leaving enough room for people to walk around unobstructed.
+
+    		If you have a large space, you have the luxury of adding a number of the latest furniture designs to the room, without overcrowding it, of course. For smaller rooms, it’s best that you look for multifunctional furniture designs that let you do more without taking up a lot of room. Once you identify what your room is going to be used for and what pieces you would like to furnish it with, you can proceed to find the right pieces online.
+    	</p></pre>
+    </div>
+    <!-- start of footer  -->
+    <div class="container footer">
+    	
+    </div>
+    <!-- End of footer -->
 
 
 
