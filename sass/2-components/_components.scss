@@ -1,8 +1,52 @@
-// Section
-.section-title{
-	margin: 30px 0;
+//search box
+.searchbox{
+	width: 550px;
+	height: unset;
 }
-// Image
-img.img-full{
-	width: 100%
+//Buttons
+.button_primary{
+	background-color: orange;
+	color: white;
+	:hover{
+		background-color: white;
+		border: 1px solid orange;
+		color: orange;
+	} 
+}
+header{
+	div.container{
+		div.sticky{
+			position: -webkit-sticky;
+			position: sticky;	
+			}
+	}
+}
+div.svg{
+	padding-left: 350px;
+	a{
+		color: black;
+		:hover{
+			color: orange;
+			pointer: pointer;
+			text-decoration: none;
+		}
+		div.col{
+			svg{
+				height: 60px;
+				width: 60px;
+				margin: 15px;
+			}
+		}
+	}
+}
+span.centre{
+	 margin: auto;
+		h2{
+			span{
+				margin-left: 400px;	
+		}
+		div.mid{
+			text-align: centre;
+		}
+	}
 }
