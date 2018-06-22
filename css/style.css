@@ -1,0 +1,54 @@
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2.5rem; }
+
+h3 {
+  font-size: 2rem; }
+
+h4 {
+  font-size: 1.5rem; }
+
+h5, p {
+  font-size: 1rem; }
+
+h6 {
+  font-size: 0.5rem; }
+
+section {
+  margin: 50px 0; }
+
+section#hero {
+  margin: 0; }
+
+.section-title {
+  margin: 30px 0; }
+
+img.img-full {
+  width: 100%; }
+
+section#content-someting {
+  background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/NGTYhyRhgilq4uu1a/abstract-animation-of-water-bubble-stream-fluid-particle-flowing-or-shooting-from-left-to-right-under-deep-blue-water-background-texture-pattern-in-4k-ultra-hd-video_bwyepkgz__F0013.png"); }
+  section#content-someting .container-fluid .row .col-xl-6 {
+    padding: 0; }
+    section#content-someting .container-fluid .row .col-xl-6 .vertical-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      padding: 0 50px;
+      height: 100%; }
+      section#content-someting .container-fluid .row .col-xl-6 .vertical-center div h2, section#content-someting .container-fluid .row .col-xl-6 .vertical-center div p {
+        text-align: center;
+        color: #ffffff; }
+      section#content-someting .container-fluid .row .col-xl-6 .vertical-center div h2 {
+        text-transform: uppercase; }
+
+@media screen and (max-width: 670px) {
+  section#content-someting .container-fluid .row .col-xl-6 .vertical-center {
+    padding: 50px; } }
+:root {
+  font-size: 14px; }
+
+/*# sourceMappingURL=style.css.map */

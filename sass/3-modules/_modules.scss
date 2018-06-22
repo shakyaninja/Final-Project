@@ -1,0 +1,27 @@
+section#content-someting{
+	background: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/NGTYhyRhgilq4uu1a/abstract-animation-of-water-bubble-stream-fluid-particle-flowing-or-shooting-from-left-to-right-under-deep-blue-water-background-texture-pattern-in-4k-ultra-hd-video_bwyepkgz__F0013.png');
+	.container-fluid{
+		.row{
+			.col-xl-6{
+				padding: 0;
+				.vertical-center{
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					flex-direction:row;
+					padding: 0 50px;
+					height: 100%;
+					div{
+						h2,p{
+							text-align: center;
+							color: $white;
+						}	
+						h2{
+							text-transform: uppercase;
+						}
+					}
+				}
+			}
+		}
+	}
+}
