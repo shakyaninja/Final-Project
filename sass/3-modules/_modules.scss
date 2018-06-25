@@ -64,14 +64,82 @@ div{
 	}
 }
 main{
-	.container{
+	.container
+	{
+		.grey
+		{
+			margin-top: 50px;
+			background-color: #f9fafa;
+			.col-8
+			{
+				p
+				{
+				margin-left: 50px;
+				font-size: 15px;
+				}
+				span
+				{
+				margin-left: 80px;
+				font-size: 10px;
+					a{
+						color: #ed7745;
+						text-decoration: none;
+					}
+					a:hover
+					{
+						color: orange;
+						text-decoration: none;
+					}
+				}
+			}
+		}
+		.box{
+			border: 1px solid grey;
+			border-radius: 2%;
+			padding: 5px;
+			line-height: 30px;
+			span{
+				font-size: 10px;
+				margin-left: 3px;
+			}
+		}
 		.row{
+			margin: 0px;
+			.col-10{
+				span{
+					font-size: 10px;
+					color: grey;
+					margin-left:35px;
+				}
+			}
+			.col-4{
+				.grey{
+					background-color: #f2f2f2;
+					p{
+						a{
+							color: #ed7745;
+						}
+						a:hover{
+							color: orange;
+						}
+					}
+				}
+			}
 			.col-8{
 				.row{
 					p{
 						color: grey;
 					}
 				}
+			}
+		}
+	}
+}
+main{
+	.container{
+		.icon{
+			.col{
+				padding: 20px;
 			}
 		}
 	}

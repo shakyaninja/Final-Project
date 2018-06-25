@@ -82,7 +82,6 @@ main #grey {
         margin: 20px; }
     main #grey .svg a:hover {
       color: #ed7745;
-      pointer: pointer;
       text-decoration: none; }
 main .container {
   padding: 20px; }
@@ -209,14 +208,12 @@ main .container .row .col:hover {
 
 .button_primary:hover {
   background-color: white;
-  pointer: pointer;
   border: 1px solid #ed7745;
   border-radius: 5%;
   color: #ed7745; }
 
 .button_secondary:hover {
   background-color: #ed7745;
-  pointer: pointer;
   border: 1px solid #ed7745;
   border-radius: 5%;
   color: white; }
@@ -263,8 +260,46 @@ div div.social {
 div span.header h1#title {
   font-size: 2.5rem; }
 
-main .container .row .col-8 .row p {
-  color: grey; }
+main .container .grey {
+  margin-top: 50px;
+  background-color: #f9fafa; }
+  main .container .grey .col-8 p {
+    margin-left: 50px;
+    font-size: 15px; }
+  main .container .grey .col-8 span {
+    margin-left: 80px;
+    font-size: 10px; }
+    main .container .grey .col-8 span a {
+      color: #ed7745;
+      text-decoration: none; }
+    main .container .grey .col-8 span a:hover {
+      color: orange;
+      text-decoration: none; }
+main .container .box {
+  border: 1px solid grey;
+  border-radius: 2%;
+  padding: 5px;
+  line-height: 30px; }
+  main .container .box span {
+    font-size: 10px;
+    margin-left: 3px; }
+main .container .row {
+  margin: 0px; }
+  main .container .row .col-10 span {
+    font-size: 10px;
+    color: grey;
+    margin-left: 35px; }
+  main .container .row .col-4 .grey {
+    background-color: #f2f2f2; }
+    main .container .row .col-4 .grey p a {
+      color: #ed7745; }
+    main .container .row .col-4 .grey p a:hover {
+      color: orange; }
+  main .container .row .col-8 .row p {
+    color: grey; }
+
+main .container .icon .col {
+  padding: 20px; }
 
 @media screen and (max-width: 670px) {
   section#content-someting .container-fluid .row .col-xl-6 .vertical-center {
