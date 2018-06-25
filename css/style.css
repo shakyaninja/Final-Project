@@ -19,63 +19,252 @@ h6 {
 .font-sm {
   font-size: 10px; }
 
-.main-container {
-  width: 100%;
-  padding-left: 100px;
-  padding-right: 100px; }
-  .main-container .backgrey {
-    background-color: grey; }
+.font-md {
+  font-size: 20px; }
 
-.searchbox {
-  width: 550px;
-  height: unset; }
+header .container .nav1 .row ul {
+  margin-left: -40px; }
+  header .container .nav1 .row ul li {
+    display: inline-block;
+    margin-left: 15px; }
+    header .container .nav1 .row ul li a {
+      color: black;
+      text-decoration: none; }
+    header .container .nav1 .row ul li a:hover {
+      color: #ed7745;
+      text-decoration: none; }
+header .container .nav2 .row .col-2 svg {
+  vertical-align: baseline; }
+header .container .nav2 .row .col-6 form {
+  vertical-align: baseline; }
+header .container .nav2 .row .col-1 svg {
+  vertical-align: baseline; }
+header .container .nav3 .row {
+  margin: 0px; }
+  header .container .nav3 .row ul li {
+    font-size: 1.5rem;
+    display: inline-block;
+    margin-left: 20px; }
+    header .container .nav3 .row ul li a {
+      color: black;
+      text-decoration: none; }
+    header .container .nav3 .row ul li a:hover {
+      color: #ed7745;
+      text-decoration: none; }
 
-.button_primary {
-  background-color: orange;
-  color: white; }
-  .button_primary :hover {
-    background-color: white;
-    border: 1px solid orange;
-    color: orange; }
-
-header div.container div.sticky {
-  position: -webkit-sticky;
-  position: sticky; }
-
-div.svg {
-  padding-left: 350px; }
-  div.svg a {
-    color: black; }
-    div.svg a :hover {
-      color: orange;
+main .main-container {
+  padding-left: 240px;
+  padding-right: 240px; }
+  main .main-container .container {
+    padding-top: 50px;
+    padding-bottom: 50px; }
+    main .main-container .container .row .col-6 {
+      padding: 20px; }
+    main .main-container .container .row .col-8 p {
+      font-size: 1.5rem;
+      color: #999ebb; }
+    main .main-container .container .new .card {
+      margin-left: 80px; }
+main #grey {
+  background-color: #f9fafa;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  main #grey .row h2.title {
+    margin-left: 400px; }
+  main #grey .svg {
+    padding-left: 200px; }
+    main #grey .svg a {
+      color: black;
+      text-decoration: none; }
+      main #grey .svg a div.col svg {
+        height: 60px;
+        width: 60px;
+        margin: 20px; }
+    main #grey .svg a:hover {
+      color: #ed7745;
       pointer: pointer;
       text-decoration: none; }
-    div.svg a div.col svg {
-      height: 60px;
-      width: 60px;
-      margin: 15px; }
+main .container {
+  padding: 20px; }
+  main .container .row #customer {
+    margin: 20px; }
+    main .container .row #customer .outline_box {
+      border: 1px solid grey;
+      padding: 20px; }
+  main .container .row .col .outline_box {
+    border: 1px solid grey;
+    padding: 40px; }
 
-span.centre {
-  margin: auto; }
-  span.centre h2 span {
-    margin-left: 400px; }
-  span.centre h2 div.mid {
-    text-align: centre; }
+footer #bg_blue {
+  background-color: #2f4858; }
+footer .container .row ul {
+  list-style: none; }
+  footer .container .row ul li {
+    text-decoration: none; }
+    footer .container .row ul li a {
+      color: grey; }
+    footer .container .row ul li a:hover {
+      color: #ed7745;
+      text-decoration: none; }
+
+main .container .row {
+  margin-top: 20px; }
+  main .container .row .col-5 a {
+    text-decoration: none;
+    color: #ed7745; }
+  main .container .row .col-5 a:hover {
+    text-decoration: none;
+    color: orange; }
+  main .container .row .col-2 ul {
+    list-style: none; }
+    main .container .row .col-2 ul li a {
+      text-decoration: none;
+      color: #ed7745; }
+    main .container .row .col-2 ul li a:hover {
+      text-decoration: none;
+      color: orange; }
+  main .container .row a {
+    margin-left: 3px;
+    text-decoration: none;
+    color: grey; }
+  main .container .row a:hover {
+    text-decoration: none;
+    color: #ed7745; }
+
+main .container .row .col-5:hover {
+  pointer: pointer;
+  background-color: #f6f0ef; }
+
+main .container .row .col-8 span {
+  color: #ed7745;
+  font-size: 1rem; }
+main .container .row .col-8 p {
+  font-size: 1rem; }
+  main .container .row .col-8 p a {
+    color: #ed7745;
+    text-decoration: none; }
+  main .container .row .col-8 p a:hover {
+    text-decoration: none;
+    color: orange; }
+main .container .row .last {
+  background-color: #f9fafa;
+  padding-top: 150px;
+  padding-bottom: 150px; }
+  main .container .row .last .row .col-6 .ref {
+    color: grey; }
+  main .container .row .last .row .col-6 h2 {
+    color: #ed7745; }
+main .container .row .col .hidden {
+  opacity: 0; }
+  main .container .row .col .hidden .col {
+    box-shadow: none; }
+main .container .row .col .hidden:hover {
+  opacity: 1; }
+main .container .row .col .row {
+  margin: 2px; }
+  main .container .row .col .row ul {
+    list-style: none; }
+    main .container .row .col .row ul li h4 {
+      text-decoration: bold; }
+    main .container .row .col .row ul li .ref {
+      color: grey; }
+      main .container .row .col .row ul li .ref a {
+        text-decoration: none;
+        color: #f6f0ef; }
+      main .container .row .col .row ul li .ref a:hover {
+        text-decoration: none;
+        color: #ed7745; }
+    main .container .row .col .row ul li span {
+      text-decoration: bold; }
+main .container .row .col:hover {
+  box-shadow: 5px 5px 5px 5px #eeeeee; }
+
+.button_primary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 170px;
+  background-color: #ed7745;
+  color: white;
+  border: 1px solid #ed7745;
+  border-radius: 5%; }
+
+.button_secondary {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40px;
+  width: 170px;
+  background-color: white;
+  color: #ed7745;
+  border: 1px solid #ed7745;
+  border-radius: 5%; }
+
+.small {
+  height: 40px;
+  width: 100px; }
+
+.lg {
+  height: 40px;
+  width: 300px; }
+
+.button_primary:hover {
+  background-color: white;
+  pointer: pointer;
+  border: 1px solid #ed7745;
+  border-radius: 5%;
+  color: #ed7745; }
+
+.button_secondary:hover {
+  background-color: #ed7745;
+  pointer: pointer;
+  border: 1px solid #ed7745;
+  border-radius: 5%;
+  color: white; }
 
 div.head-row {
   height: 50px; }
   div.head-row .col-2 {
     line-height: 50px; }
 
-div.header span h1#title {
+.row .col .outline_box .row {
+  color: grey; }
+
+.container .row .col .nopad {
+  padding: 0px;
+  margin: 0px;
+  background-color: #f2f4f4; }
+
+div .profile {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background: url(../img/profile.jpg) -72px -77px; }
+div div.social {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  border: 1px solid white; }
+  div div.social div#facebook {
+    background: url(../img/facebook.png) 0px 0px; }
+  div div.social div#youtube {
+    background: url(../img/youtube.png) 0px 0px; }
+  div div.social div#twitter {
+    background: url(../img/twitter.png) 0px 0px; }
+  div div.social div#linkedin {
+    background: url(../img/linkedin.png) 0px 0px; }
+  div div.social div#pinterest {
+    background: url(../img/pinterest.png) 0px 0px; }
+div span.header h1#title {
   font-size: 2.5rem; }
 
-h2.category-name {
-  font-size: 1.5rem; }
-
-img#big {
-  margin-left: 5px;
-  margin-right: 5px; }
+main .container .row .col-8 .row p {
+  color: grey; }
 
 @media screen and (max-width: 670px) {
   section#content-someting .container-fluid .row .col-xl-6 .vertical-center {

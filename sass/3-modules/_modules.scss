@@ -3,18 +3,76 @@ div.head-row{
 	.col-2{
 		line-height: 50px;
 	}
+}.row{
+	.col{
+		.outline_box{
+			.row{
+				color: grey;
+			}
+		}
+	}
 }
-div.header{
-	span{
+.container{
+	.row{
+		.col{
+			.nopad{
+				padding: 0px;
+				margin: 0px;
+				background-color: #f2f4f4;
+				}
+		}
+	}
+}
+div{
+	.profile{
+		margin: 0px;
+		padding: 0px;
+		display: inline-block;
+		height: 100px;
+		width: 100px;
+		border: 1px solid white;
+		border-radius: 50%;
+		background: url(../img/profile.jpg) -72px -77px;
+	}
+	div.social{
+		margin:0px;
+		padding: 0px;
+		display: inline-block;
+		height: 25px;
+		width: 25px;
+		border: 1px solid white;
+		div#facebook{
+			background: url(../img/facebook.png) 0px 0px;
+		}
+		div#youtube{
+			background: url(../img/youtube.png) 0px 0px;
+		}
+		div#twitter{
+			background: url(../img/twitter.png) 0px 0px;
+		}
+		div#linkedin{
+			background: url(../img/linkedin.png) 0px 0px;
+		}
+		div#pinterest{
+			background: url(../img/pinterest.png) 0px 0px;
+		}
+	}
+	span.header{
 		h1#title{
 			font-size: 2.5rem;
 		}
 	}
 }
-h2.category-name{
-	font-size: 1.5rem;
-}
-img#big{ 
-	margin-left: 5px;
-	margin-right: 5px;
+main{
+	.container{
+		.row{
+			.col-8{
+				.row{
+					p{
+						color: grey;
+					}
+				}
+			}
+		}
+	}
 }

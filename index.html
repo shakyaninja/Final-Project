@@ -35,82 +35,162 @@
     			</div>
     		</div>
             <hr/>
-    		<div class="container" >
+            <div class="container">
+                <nav class="navbar navbar-expand-sm ">
+                  <!-- Links -->
+                    <a class="navbar-brand" href="#">
+                        <figure class="header__topBar_logo">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="80" viewBox="0 0 50 37" class="logo-with-gradient">
+                                <defs>
+                                    <linearGradient id="a" x1="0%" y1="50%" y2="50%">
+                                        <stop offset="0%" stop-color="#EC8523"></stop>
+                                        <stop offset="35%" stop-color="#ED7745"></stop>
+                                        <stop offset="37%" stop-color="#ED7545"></stop>
+                                        <stop offset="76%" stop-color="#E95D47"></stop>
+                                        <stop offset="100%" stop-color="#E85448"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <polygon fill="url(#a)" fill-rule="evenodd" points="0 0 0 36.201 33.604 36.201 33.604 31.948 4.359 31.948 4.359 4.253 45.641 4.253 45.641 36.201 50 36.201 50 0"></polygon>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="80" viewBox="0 0 213 107" class="logo-text">
+                                <g fill="#2F4858">
+                                    <path d="M20.28 46.3C8.68 46.3 0 39.6 0 24.68V.93h9.1V24.4c0 9.5 4.12 14.2 11.32 14.2s11.3-4.7 11.3-14.2V.9h8.76v23.7c0 14.9-8.6 21.6-20.2 21.6v.1zm37.46-18.6v17.35h-8.52v-31.8h7.8l.37 5.8c1.8-3.66 6.4-6.68 11.8-6.68v8.3c-5.8-1.35-11.5 1.6-11.5 7.03zM93.9 45.93c-4.5 0-9.2-2.06-11.83-5.95l-.3 5.07h-7.7V.93h8.5v16.7c2.8-3.38 6.96-5.3 11.33-5.23 8.58 0 14.9 7.2 14.9 16.77 0 9.55-6.3 16.76-14.9 16.76zm-2.65-27.2c-5 0-9.03 3.9-9.03 10.44 0 6.55 4.04 10.45 9.03 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.04-10.44-9.03-10.44zm49.3 26.32l-.3-5.07c-2.65 3.9-7.35 5.95-11.83 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.48 0 9.18 2.06 11.83 5.96l.3-5.08h7.7v31.77h-7.7zm-9.48-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.03-10.44-9.03-10.44zm48.56 26.32V27.48c0-6.18-2.14-8.24-6.02-8.24-4 0-8.4 3.68-8.4 8.1v17.72h-8.5v-31.8h7.8l.4 5.88c2.2-4.05 6.9-6.77 11.8-6.77 8.5 0 11.6 5.9 11.6 13.75v18.9h-8.5v.03h-.13zm-179.4 61V61.93h8.95v37.13h19.77v7H.23zm58.62 0l-.3-5.07c-2.63 3.9-7.33 5.95-11.82 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.5 0 9.2 2.06 11.83 5.96l.3-5.08h7.72v31.77h-7.72zm-9.47-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4-10.44-9-10.44zm50.76 26.32l-.3-5.07c-2.64 3.9-7.34 5.95-11.82 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.37-.07 8.53 1.85 11.3 5.22v-16.7h8.54v44.13h-7.72zm-9.5-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.03-10.44-9.03-10.44zm50.78 26.32l-.3-5.07c-2.64 3.9-7.34 5.95-11.83 5.95-8.6 0-15-7.2-15-16.76 0-9.56 6.3-16.77 14.9-16.77 4.4-.07 8.5 1.85 11.3 5.22v-16.7h8.5v44.13h-7.7.1zm-9.48-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.02-10.44-9.02-10.44zm53.43 10.67H164.2c-.2 4.84 2.3 10.34 10.83 10.34 3.75-.1 7.37-1.4 10.3-3.75v6.1c-3.02 2.3-7.65 3.7-12.94 3.7-9.8 0-16.7-7.2-16.7-17 0-10.2 7.8-16.6 16-16.6 8.1 0 14.1 5 14.1 12.5 0 1.5-.2 3-.6 4.42l.13.24zM172 78.83c-3.58 0-6.7 2.06-7.42 7h13.6c.72-3.84-1.77-7-6.18-7zm29.53 9.87v17.35H193v-31.8h7.78l.37 5.8c1.83-3.66 6.43-6.68 11.83-6.68v8.3c-5.76-1.35-11.45 1.6-11.45 7.03z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </figure>                        
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <form class="form-inline" action="/action_page.php">
+                                <input class="form-control mr-sm-6" type="text" placeholder="Search">
+                                <a href="#"><img src="./img/search.svg"/></a>
+                            </form>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M6.54 6.8C5.7 6.8 5.02 6.15 5 5.32c-.02-.83.63-1.5 1.46-1.54.83-.03 1.52.62 1.54 1.45v.04c0 .8-.65 1.47-1.46 1.5zm0-4C5.16 2.76 4.02 3.86 4 5.24c-.02 1.4 1.08 2.53 2.46 2.56C7.84 7.8 8.98 6.7 9 5.32V5.3c0-1.37-1.1-2.5-2.46-2.5zM23 21h-1.4c-.3-1.35-1.6-2.22-2.96-1.95-.98.2-1.75.97-1.95 1.95h-1.43v-8.55h2.3c3.07.1 5.5 2.66 5.42 5.74V21zm-2.42.68c-.02.1-.04.22-.08.32-.2.6-.77 1-1.4 1-.64 0-1.2-.4-1.42-1-.04-.1-.07-.2-.08-.3v-.2c0-.17.03-.34.1-.5.26-.78 1.1-1.2 1.88-.93.44.15.78.5.93.93.08.16.1.33.1.5.05.07.04.13.04.18h-.05zM14.24 21H7c-.26-1.35-1.57-2.23-2.92-1.97-1 .2-1.78.97-1.97 1.97H1v-9.88h2.8l.13.18.23.3c.62.78 1.3 1.53 2 2.23.04.05.1.08.16.1.1.05.25.05.36 0 .06-.02.12-.05.17-.1.72-.7 1.4-1.44 2-2.23.1-.1.18-.2.26-.33l.14-.15h5V21zM6 21.5c.03.17.03.34 0 .5-.22.6-.78 1-1.4 1-.64 0-1.2-.4-1.4-1-.1-.17-.17-.35-.2-.55.02-.16.06-.3.14-.45.2-.6.77-1 1.4-1 .66-.02 1.25.4 1.46 1 .05.15.08.3.1.45l-.1.05zM2.2 6.13c-.32-1.2-.06-2.46.7-3.43C3.77 1.6 5.12.95 6.53 1c1.43-.04 2.8.6 3.66 1.74.73.96 1 2.22.7 3.4-.54 1.52-1.3 2.94-2.3 4.2l-.14.16-.13.17-.23.33c-.48.63-1 1.23-1.57 1.8-.35-.37-1-1-1.6-1.8l-.2-.28c-.07-.07-.13-.14-.18-.22l-.1-.16c-1-1.25-1.77-2.68-2.25-4.2zm15.37 5.32H15.3v-.83c0-.27-.23-.5-.5-.5H10c.8-1.13 1.44-2.38 1.87-3.7.4-1.5.07-3.07-.87-4.28C9.94.76 8.28-.04 6.53 0 4.8-.05 3.16.73 2.1 2.1 1.16 3.33.84 4.92 1.23 6.4c.42 1.34 1.04 2.6 1.84 3.72H.5c-.28 0-.5.23-.5.5V21.5c0 .28.22.5.5.5h1.6c.27 1.36 1.6 2.23 2.95 1.96C6.03 23.76 6.8 23 7 22h9.7c.27 1.36 1.58 2.23 2.94 1.96.98-.2 1.75-.97 1.95-1.96h1.9c.27 0 .5-.22.5-.5v-3.3c.07-3.64-2.8-6.65-6.44-6.75zm-2.3 1V21v-8.55z"></path>
+                                </svg>  
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <!-- <div class="dropdown"class=" dropdown-toggle" data-toggle="dropdown"> -->
+                                    <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                        <path fill-rule="evenodd" d="M3.07 21c.17-1.35.958-4.98 4.325-6.41.07.06.14.11.22.16.03.03.06.06.1.08.11.09.23.17.35.24.1.06.21.13.32.18.238.15.498.27.758.38.12.05.25.1.38.15.79.28 1.628.43 2.487.43.63 0 1.26-.08 1.858-.24.11-.02.23-.06.34-.1.13-.03.26-.08.39-.13.18-.06.36-.14.53-.22.17-.08.33-.16.488-.26.13-.06.25-.14.37-.22.07-.04.13-.08.19-.12.12-.08.24-.17.35-.26.03-.02.05-.04.08-.06 3.566 1.5 4.235 5.07 4.365 6.4H3.07zM5.735 9.11C5.735 5.74 8.553 3 12.01 3s6.274 2.74 6.274 6.11c0 1.18-.35 2.33-1.02 3.32-.25.38-.53.72-.858 1.03l-.22.19c-1.15 1-2.628 1.56-4.176 1.56-1.558 0-3.047-.56-4.196-1.57-.41-.35-.77-.76-1.07-1.21-.658-.99-1.008-2.14-1.008-3.32zm11.66 4.76c.258-.27.488-.57.698-.88.78-1.16 1.19-2.5 1.19-3.88 0-3.92-3.268-7.11-7.274-7.11-4.017 0-7.274 3.19-7.274 7.11 0 1.38.41 2.72 1.18 3.88.21.31.44.6.688.87-4.365 2.13-4.575 7.39-4.585 7.62L2 22h20v-.5c0-.06-.05-5.42-4.605-7.63z"></path>
+                                    </svg>  
+                               <!--  <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="Login">Login</a>
+                                    <a class="dropdown-item" href="SignUp">Sign Up</a>
+                                </div>   --> 
+                            </a>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M4.93 8.55c0-1.4 1.1-2.53 2.44-2.53.27 0 .5-.22.5-.5 0-.27-.23-.5-.5-.5-1.9 0-3.42 1.6-3.42 3.53 0 .28.22.5.5.5.26 0 .48-.22.48-.5zm8.25-3.57zM7.38 4c-1.18 0-2.28.47-3.1 1.33-1.72 1.78-1.72 4.67 0 6.45l7.72 8 7.73-8c1.7-1.78 1.7-4.67 0-6.45C18.9 4.47 17.8 4 16.63 4c-1.17 0-2.26.47-3.1 1.33-.5.5-.84 1.1-1.06 1.8-.07.2-.25.34-.47.34-.2 0-.4-.14-.47-.34-.22-.7-.58-1.3-1.07-1.8C9.64 4.47 8.54 4 7.36 4zM12 21c-.13 0-.26-.05-.35-.15l-8.08-8.37c-2.1-2.17-2.1-5.7 0-7.85C4.57 3.58 5.93 3 7.37 3c1.43 0 2.78.58 3.8 1.63.32.34.6.7.83 1.1.23-.4.5-.76.83-1.1C13.85 3.58 15.2 3 16.63 3c1.44 0 2.8.58 3.8 1.63 2.1 2.16 2.1 5.68 0 7.85l-8.08 8.37c-.1.1-.22.15-.35.15z"></path>
+                                </svg>  
+                            </a>                            
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="#">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd">
+                                        <path d="M19.45 13.77H7.18l-.83-7.99H20.9l-1.45 7.99zM9.58 18.8c.57 0 1.04.49 1.04 1.1 0 .61-.47 1.1-1.04 1.1-.57 0-1.03-.49-1.03-1.1 0-.61.46-1.1 1.03-1.1zm8.21 2.2c-.57 0-1.03-.49-1.03-1.1 0-.61.46-1.1 1.03-1.1.57 0 1.04.49 1.04 1.1 0 .61-.47 1.1-1.04 1.1zm4.09-16.04c-.09-.11-.23-.18-.38-.18H6.25l-.24-2.33c-.03-.26-.24-.45-.5-.45H2.5c-.28 0-.5.22-.5.5s.22.5.5.5h2.56l.24 2.28v.06l.93 8.99.39 3.78c.03.26.24.45.5.45h.9c-.29.36-.47.83-.47 1.34 0 1.16.91 2.1 2.03 2.1 1.12 0 2.04-.94 2.04-2.1 0-.52-.19-1-.5-1.36l5.15-.02c-.32.37-.51.85-.51 1.38 0 1.16.91 2.1 2.03 2.1 1.12 0 2.04-.94 2.04-2.1 0-.54-.2-1.03-.53-1.4h.05c.27 0 .5-.23.49-.5 0-.28-.22-.5-.5-.5l-11.77.06-.29-2.79h12.59c.25 0 .45-.17.49-.41l1.63-8.99c.03-.14-.01-.29-.11-.41z"></path>
+                                        <path d="M8.317 11.78c-.25 0-.468-.19-.496-.445l-.462-4.24c-.03-.274.168-.52.442-.55.264-.03.52.166.55.44l.466 4.24c.03.275-.168.522-.442.552-.02.002-.037.003-.056.003"></path>
+                                    </g>
+                                </svg> 
+                            </a>                            
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+<!--     		<div class="main-container" >
     			<div class="row">
     				<div class="col-2">
     					<figure class="header__topBar_logo">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="80" viewBox="0 0 50 37" class="logo-with-gradient">
-                          <defs>
-                            <linearGradient id="a" x1="0%" y1="50%" y2="50%">
-                              <stop offset="0%" stop-color="#EC8523"></stop>
-                              <stop offset="35%" stop-color="#ED7745"></stop>
-                              <stop offset="37%" stop-color="#ED7545"></stop>
-                              <stop offset="76%" stop-color="#E95D47"></stop>
-                              <stop offset="100%" stop-color="#E85448"></stop>
-                            </linearGradient>
-                          </defs>
-                          <polygon fill="url(#a)" fill-rule="evenodd" points="0 0 0 36.201 33.604 36.201 33.604 31.948 4.359 31.948 4.359 4.253 45.641 4.253 45.641 36.201 50 36.201 50 0"></polygon>
+                            <defs>
+                                <linearGradient id="a" x1="0%" y1="50%" y2="50%">
+                                    <stop offset="0%" stop-color="#EC8523"></stop>
+                                    <stop offset="35%" stop-color="#ED7745"></stop>
+                                    <stop offset="37%" stop-color="#ED7545"></stop>
+                                    <stop offset="76%" stop-color="#E95D47"></stop>
+                                    <stop offset="100%" stop-color="#E85448"></stop>
+                                </linearGradient>
+                            </defs>
+                            <polygon fill="url(#a)" fill-rule="evenodd" points="0 0 0 36.201 33.604 36.201 33.604 31.948 4.359 31.948 4.359 4.253 45.641 4.253 45.641 36.201 50 36.201 50 0"></polygon>
                         </svg>
                         <svg xmlns="http://www.w3.org/2000/svg" width="70" height="80" viewBox="0 0 213 107" class="logo-text">
-                          <g fill="#2F4858">
-                            <path d="M20.28 46.3C8.68 46.3 0 39.6 0 24.68V.93h9.1V24.4c0 9.5 4.12 14.2 11.32 14.2s11.3-4.7 11.3-14.2V.9h8.76v23.7c0 14.9-8.6 21.6-20.2 21.6v.1zm37.46-18.6v17.35h-8.52v-31.8h7.8l.37 5.8c1.8-3.66 6.4-6.68 11.8-6.68v8.3c-5.8-1.35-11.5 1.6-11.5 7.03zM93.9 45.93c-4.5 0-9.2-2.06-11.83-5.95l-.3 5.07h-7.7V.93h8.5v16.7c2.8-3.38 6.96-5.3 11.33-5.23 8.58 0 14.9 7.2 14.9 16.77 0 9.55-6.3 16.76-14.9 16.76zm-2.65-27.2c-5 0-9.03 3.9-9.03 10.44 0 6.55 4.04 10.45 9.03 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.04-10.44-9.03-10.44zm49.3 26.32l-.3-5.07c-2.65 3.9-7.35 5.95-11.83 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.48 0 9.18 2.06 11.83 5.96l.3-5.08h7.7v31.77h-7.7zm-9.48-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.03-10.44-9.03-10.44zm48.56 26.32V27.48c0-6.18-2.14-8.24-6.02-8.24-4 0-8.4 3.68-8.4 8.1v17.72h-8.5v-31.8h7.8l.4 5.88c2.2-4.05 6.9-6.77 11.8-6.77 8.5 0 11.6 5.9 11.6 13.75v18.9h-8.5v.03h-.13zm-179.4 61V61.93h8.95v37.13h19.77v7H.23zm58.62 0l-.3-5.07c-2.63 3.9-7.33 5.95-11.82 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.5 0 9.2 2.06 11.83 5.96l.3-5.08h7.72v31.77h-7.72zm-9.47-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4-10.44-9-10.44zm50.76 26.32l-.3-5.07c-2.64 3.9-7.34 5.95-11.82 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.37-.07 8.53 1.85 11.3 5.22v-16.7h8.54v44.13h-7.72zm-9.5-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.03-10.44-9.03-10.44zm50.78 26.32l-.3-5.07c-2.64 3.9-7.34 5.95-11.83 5.95-8.6 0-15-7.2-15-16.76 0-9.56 6.3-16.77 14.9-16.77 4.4-.07 8.5 1.85 11.3 5.22v-16.7h8.5v44.13h-7.7.1zm-9.48-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.02-10.44-9.02-10.44zm53.43 10.67H164.2c-.2 4.84 2.3 10.34 10.83 10.34 3.75-.1 7.37-1.4 10.3-3.75v6.1c-3.02 2.3-7.65 3.7-12.94 3.7-9.8 0-16.7-7.2-16.7-17 0-10.2 7.8-16.6 16-16.6 8.1 0 14.1 5 14.1 12.5 0 1.5-.2 3-.6 4.42l.13.24zM172 78.83c-3.58 0-6.7 2.06-7.42 7h13.6c.72-3.84-1.77-7-6.18-7zm29.53 9.87v17.35H193v-31.8h7.78l.37 5.8c1.83-3.66 6.43-6.68 11.83-6.68v8.3c-5.76-1.35-11.45 1.6-11.45 7.03z">
-                            </path>
-                          </g>
+                            <g fill="#2F4858">
+                                <path d="M20.28 46.3C8.68 46.3 0 39.6 0 24.68V.93h9.1V24.4c0 9.5 4.12 14.2 11.32 14.2s11.3-4.7 11.3-14.2V.9h8.76v23.7c0 14.9-8.6 21.6-20.2 21.6v.1zm37.46-18.6v17.35h-8.52v-31.8h7.8l.37 5.8c1.8-3.66 6.4-6.68 11.8-6.68v8.3c-5.8-1.35-11.5 1.6-11.5 7.03zM93.9 45.93c-4.5 0-9.2-2.06-11.83-5.95l-.3 5.07h-7.7V.93h8.5v16.7c2.8-3.38 6.96-5.3 11.33-5.23 8.58 0 14.9 7.2 14.9 16.77 0 9.55-6.3 16.76-14.9 16.76zm-2.65-27.2c-5 0-9.03 3.9-9.03 10.44 0 6.55 4.04 10.45 9.03 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.04-10.44-9.03-10.44zm49.3 26.32l-.3-5.07c-2.65 3.9-7.35 5.95-11.83 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.48 0 9.18 2.06 11.83 5.96l.3-5.08h7.7v31.77h-7.7zm-9.48-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.03-10.44-9.03-10.44zm48.56 26.32V27.48c0-6.18-2.14-8.24-6.02-8.24-4 0-8.4 3.68-8.4 8.1v17.72h-8.5v-31.8h7.8l.4 5.88c2.2-4.05 6.9-6.77 11.8-6.77 8.5 0 11.6 5.9 11.6 13.75v18.9h-8.5v.03h-.13zm-179.4 61V61.93h8.95v37.13h19.77v7H.23zm58.62 0l-.3-5.07c-2.63 3.9-7.33 5.95-11.82 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.5 0 9.2 2.06 11.83 5.96l.3-5.08h7.72v31.77h-7.72zm-9.47-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4-10.44-9-10.44zm50.76 26.32l-.3-5.07c-2.64 3.9-7.34 5.95-11.82 5.95-8.58 0-14.9-7.2-14.9-16.76 0-9.56 6.3-16.77 14.9-16.77 4.37-.07 8.53 1.85 11.3 5.22v-16.7h8.54v44.13h-7.72zm-9.5-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.03-10.44-9.03-10.44zm50.78 26.32l-.3-5.07c-2.64 3.9-7.34 5.95-11.83 5.95-8.6 0-15-7.2-15-16.76 0-9.56 6.3-16.77 14.9-16.77 4.4-.07 8.5 1.85 11.3 5.22v-16.7h8.5v44.13h-7.7.1zm-9.48-26.32c-5 0-9.04 3.9-9.04 10.44 0 6.55 4.04 10.45 9.04 10.45 5 0 9.03-3.9 9.03-10.45 0-6.55-4.02-10.44-9.02-10.44zm53.43 10.67H164.2c-.2 4.84 2.3 10.34 10.83 10.34 3.75-.1 7.37-1.4 10.3-3.75v6.1c-3.02 2.3-7.65 3.7-12.94 3.7-9.8 0-16.7-7.2-16.7-17 0-10.2 7.8-16.6 16-16.6 8.1 0 14.1 5 14.1 12.5 0 1.5-.2 3-.6 4.42l.13.24zM172 78.83c-3.58 0-6.7 2.06-7.42 7h13.6c.72-3.84-1.77-7-6.18-7zm29.53 9.87v17.35H193v-31.8h7.78l.37 5.8c1.83-3.66 6.43-6.68 11.83-6.68v8.3c-5.76-1.35-11.45 1.6-11.45 7.03z">
+                                </path>
+                            </g>
                         </svg>
                         </figure>
 					</div>
     				<div class="col-6"><input type="search" name="search" placeholder="Search" class="searchbox"></div>
     				<div class="col-1">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M6.54 6.8C5.7 6.8 5.02 6.15 5 5.32c-.02-.83.63-1.5 1.46-1.54.83-.03 1.52.62 1.54 1.45v.04c0 .8-.65 1.47-1.46 1.5zm0-4C5.16 2.76 4.02 3.86 4 5.24c-.02 1.4 1.08 2.53 2.46 2.56C7.84 7.8 8.98 6.7 9 5.32V5.3c0-1.37-1.1-2.5-2.46-2.5zM23 21h-1.4c-.3-1.35-1.6-2.22-2.96-1.95-.98.2-1.75.97-1.95 1.95h-1.43v-8.55h2.3c3.07.1 5.5 2.66 5.42 5.74V21zm-2.42.68c-.02.1-.04.22-.08.32-.2.6-.77 1-1.4 1-.64 0-1.2-.4-1.42-1-.04-.1-.07-.2-.08-.3v-.2c0-.17.03-.34.1-.5.26-.78 1.1-1.2 1.88-.93.44.15.78.5.93.93.08.16.1.33.1.5.05.07.04.13.04.18h-.05zM14.24 21H7c-.26-1.35-1.57-2.23-2.92-1.97-1 .2-1.78.97-1.97 1.97H1v-9.88h2.8l.13.18.23.3c.62.78 1.3 1.53 2 2.23.04.05.1.08.16.1.1.05.25.05.36 0 .06-.02.12-.05.17-.1.72-.7 1.4-1.44 2-2.23.1-.1.18-.2.26-.33l.14-.15h5V21zM6 21.5c.03.17.03.34 0 .5-.22.6-.78 1-1.4 1-.64 0-1.2-.4-1.4-1-.1-.17-.17-.35-.2-.55.02-.16.06-.3.14-.45.2-.6.77-1 1.4-1 .66-.02 1.25.4 1.46 1 .05.15.08.3.1.45l-.1.05zM2.2 6.13c-.32-1.2-.06-2.46.7-3.43C3.77 1.6 5.12.95 6.53 1c1.43-.04 2.8.6 3.66 1.74.73.96 1 2.22.7 3.4-.54 1.52-1.3 2.94-2.3 4.2l-.14.16-.13.17-.23.33c-.48.63-1 1.23-1.57 1.8-.35-.37-1-1-1.6-1.8l-.2-.28c-.07-.07-.13-.14-.18-.22l-.1-.16c-1-1.25-1.77-2.68-2.25-4.2zm15.37 5.32H15.3v-.83c0-.27-.23-.5-.5-.5H10c.8-1.13 1.44-2.38 1.87-3.7.4-1.5.07-3.07-.87-4.28C9.94.76 8.28-.04 6.53 0 4.8-.05 3.16.73 2.1 2.1 1.16 3.33.84 4.92 1.23 6.4c.42 1.34 1.04 2.6 1.84 3.72H.5c-.28 0-.5.23-.5.5V21.5c0 .28.22.5.5.5h1.6c.27 1.36 1.6 2.23 2.95 1.96C6.03 23.76 6.8 23 7 22h9.7c.27 1.36 1.58 2.23 2.94 1.96.98-.2 1.75-.97 1.95-1.96h1.9c.27 0 .5-.22.5-.5v-3.3c.07-3.64-2.8-6.65-6.44-6.75zm-2.3 1V21v-8.55z"></path>
+                                </svg>     
+                        </div>             
+                    </div>
+    				<div class="col-1" >
+                        <div class="dropdown">
+                            <svg class=" dropdown-toggle" data-toggle="dropdown" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M3.07 21c.17-1.35.958-4.98 4.325-6.41.07.06.14.11.22.16.03.03.06.06.1.08.11.09.23.17.35.24.1.06.21.13.32.18.238.15.498.27.758.38.12.05.25.1.38.15.79.28 1.628.43 2.487.43.63 0 1.26-.08 1.858-.24.11-.02.23-.06.34-.1.13-.03.26-.08.39-.13.18-.06.36-.14.53-.22.17-.08.33-.16.488-.26.13-.06.25-.14.37-.22.07-.04.13-.08.19-.12.12-.08.24-.17.35-.26.03-.02.05-.04.08-.06 3.566 1.5 4.235 5.07 4.365 6.4H3.07zM5.735 9.11C5.735 5.74 8.553 3 12.01 3s6.274 2.74 6.274 6.11c0 1.18-.35 2.33-1.02 3.32-.25.38-.53.72-.858 1.03l-.22.19c-1.15 1-2.628 1.56-4.176 1.56-1.558 0-3.047-.56-4.196-1.57-.41-.35-.77-.76-1.07-1.21-.658-.99-1.008-2.14-1.008-3.32zm11.66 4.76c.258-.27.488-.57.698-.88.78-1.16 1.19-2.5 1.19-3.88 0-3.92-3.268-7.11-7.274-7.11-4.017 0-7.274 3.19-7.274 7.11 0 1.38.41 2.72 1.18 3.88.21.31.44.6.688.87-4.365 2.13-4.575 7.39-4.585 7.62L2 22h20v-.5c0-.06-.05-5.42-4.605-7.63z"></path>
+                            </svg>  
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="Login">Login</a>
+                            <a class="dropdown-item" href="SignUp">Sign Up</a>
+                        </div>              
+                    </div>
+    				<div class="col-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                          <path fill-rule="evenodd" d="M6.54 6.8C5.7 6.8 5.02 6.15 5 5.32c-.02-.83.63-1.5 1.46-1.54.83-.03 1.52.62 1.54 1.45v.04c0 .8-.65 1.47-1.46 1.5zm0-4C5.16 2.76 4.02 3.86 4 5.24c-.02 1.4 1.08 2.53 2.46 2.56C7.84 7.8 8.98 6.7 9 5.32V5.3c0-1.37-1.1-2.5-2.46-2.5zM23 21h-1.4c-.3-1.35-1.6-2.22-2.96-1.95-.98.2-1.75.97-1.95 1.95h-1.43v-8.55h2.3c3.07.1 5.5 2.66 5.42 5.74V21zm-2.42.68c-.02.1-.04.22-.08.32-.2.6-.77 1-1.4 1-.64 0-1.2-.4-1.42-1-.04-.1-.07-.2-.08-.3v-.2c0-.17.03-.34.1-.5.26-.78 1.1-1.2 1.88-.93.44.15.78.5.93.93.08.16.1.33.1.5.05.07.04.13.04.18h-.05zM14.24 21H7c-.26-1.35-1.57-2.23-2.92-1.97-1 .2-1.78.97-1.97 1.97H1v-9.88h2.8l.13.18.23.3c.62.78 1.3 1.53 2 2.23.04.05.1.08.16.1.1.05.25.05.36 0 .06-.02.12-.05.17-.1.72-.7 1.4-1.44 2-2.23.1-.1.18-.2.26-.33l.14-.15h5V21zM6 21.5c.03.17.03.34 0 .5-.22.6-.78 1-1.4 1-.64 0-1.2-.4-1.4-1-.1-.17-.17-.35-.2-.55.02-.16.06-.3.14-.45.2-.6.77-1 1.4-1 .66-.02 1.25.4 1.46 1 .05.15.08.3.1.45l-.1.05zM2.2 6.13c-.32-1.2-.06-2.46.7-3.43C3.77 1.6 5.12.95 6.53 1c1.43-.04 2.8.6 3.66 1.74.73.96 1 2.22.7 3.4-.54 1.52-1.3 2.94-2.3 4.2l-.14.16-.13.17-.23.33c-.48.63-1 1.23-1.57 1.8-.35-.37-1-1-1.6-1.8l-.2-.28c-.07-.07-.13-.14-.18-.22l-.1-.16c-1-1.25-1.77-2.68-2.25-4.2zm15.37 5.32H15.3v-.83c0-.27-.23-.5-.5-.5H10c.8-1.13 1.44-2.38 1.87-3.7.4-1.5.07-3.07-.87-4.28C9.94.76 8.28-.04 6.53 0 4.8-.05 3.16.73 2.1 2.1 1.16 3.33.84 4.92 1.23 6.4c.42 1.34 1.04 2.6 1.84 3.72H.5c-.28 0-.5.23-.5.5V21.5c0 .28.22.5.5.5h1.6c.27 1.36 1.6 2.23 2.95 1.96C6.03 23.76 6.8 23 7 22h9.7c.27 1.36 1.58 2.23 2.94 1.96.98-.2 1.75-.97 1.95-1.96h1.9c.27 0 .5-.22.5-.5v-3.3c.07-3.64-2.8-6.65-6.44-6.75zm-2.3 1V21v-8.55z"></path>
+                            <path fill-rule="evenodd" d="M4.93 8.55c0-1.4 1.1-2.53 2.44-2.53.27 0 .5-.22.5-.5 0-.27-.23-.5-.5-.5-1.9 0-3.42 1.6-3.42 3.53 0 .28.22.5.5.5.26 0 .48-.22.48-.5zm8.25-3.57zM7.38 4c-1.18 0-2.28.47-3.1 1.33-1.72 1.78-1.72 4.67 0 6.45l7.72 8 7.73-8c1.7-1.78 1.7-4.67 0-6.45C18.9 4.47 17.8 4 16.63 4c-1.17 0-2.26.47-3.1 1.33-.5.5-.84 1.1-1.06 1.8-.07.2-.25.34-.47.34-.2 0-.4-.14-.47-.34-.22-.7-.58-1.3-1.07-1.8C9.64 4.47 8.54 4 7.36 4zM12 21c-.13 0-.26-.05-.35-.15l-8.08-8.37c-2.1-2.17-2.1-5.7 0-7.85C4.57 3.58 5.93 3 7.37 3c1.43 0 2.78.58 3.8 1.63.32.34.6.7.83 1.1.23-.4.5-.76.83-1.1C13.85 3.58 15.2 3 16.63 3c1.44 0 2.8.58 3.8 1.63 2.1 2.16 2.1 5.68 0 7.85l-8.08 8.37c-.1.1-.22.15-.35.15z"></path>
                         </svg>            
                     </div>
     				<div class="col-1">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                          <path fill-rule="evenodd" d="M3.07 21c.17-1.35.958-4.98 4.325-6.41.07.06.14.11.22.16.03.03.06.06.1.08.11.09.23.17.35.24.1.06.21.13.32.18.238.15.498.27.758.38.12.05.25.1.38.15.79.28 1.628.43 2.487.43.63 0 1.26-.08 1.858-.24.11-.02.23-.06.34-.1.13-.03.26-.08.39-.13.18-.06.36-.14.53-.22.17-.08.33-.16.488-.26.13-.06.25-.14.37-.22.07-.04.13-.08.19-.12.12-.08.24-.17.35-.26.03-.02.05-.04.08-.06 3.566 1.5 4.235 5.07 4.365 6.4H3.07zM5.735 9.11C5.735 5.74 8.553 3 12.01 3s6.274 2.74 6.274 6.11c0 1.18-.35 2.33-1.02 3.32-.25.38-.53.72-.858 1.03l-.22.19c-1.15 1-2.628 1.56-4.176 1.56-1.558 0-3.047-.56-4.196-1.57-.41-.35-.77-.76-1.07-1.21-.658-.99-1.008-2.14-1.008-3.32zm11.66 4.76c.258-.27.488-.57.698-.88.78-1.16 1.19-2.5 1.19-3.88 0-3.92-3.268-7.11-7.274-7.11-4.017 0-7.274 3.19-7.274 7.11 0 1.38.41 2.72 1.18 3.88.21.31.44.6.688.87-4.365 2.13-4.575 7.39-4.585 7.62L2 22h20v-.5c0-.06-.05-5.42-4.605-7.63z"></path>
-                        </svg>            
-                    </div>
-    				<div class="col-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                          <path fill-rule="evenodd" d="M4.93 8.55c0-1.4 1.1-2.53 2.44-2.53.27 0 .5-.22.5-.5 0-.27-.23-.5-.5-.5-1.9 0-3.42 1.6-3.42 3.53 0 .28.22.5.5.5.26 0 .48-.22.48-.5zm8.25-3.57zM7.38 4c-1.18 0-2.28.47-3.1 1.33-1.72 1.78-1.72 4.67 0 6.45l7.72 8 7.73-8c1.7-1.78 1.7-4.67 0-6.45C18.9 4.47 17.8 4 16.63 4c-1.17 0-2.26.47-3.1 1.33-.5.5-.84 1.1-1.06 1.8-.07.2-.25.34-.47.34-.2 0-.4-.14-.47-.34-.22-.7-.58-1.3-1.07-1.8C9.64 4.47 8.54 4 7.36 4zM12 21c-.13 0-.26-.05-.35-.15l-8.08-8.37c-2.1-2.17-2.1-5.7 0-7.85C4.57 3.58 5.93 3 7.37 3c1.43 0 2.78.58 3.8 1.63.32.34.6.7.83 1.1.23-.4.5-.76.83-1.1C13.85 3.58 15.2 3 16.63 3c1.44 0 2.8.58 3.8 1.63 2.1 2.16 2.1 5.68 0 7.85l-8.08 8.37c-.1.1-.22.15-.35.15z"></path>
-                        </svg>            
-                    </div>
-    				<div class="col-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                          <g fill-rule="evenodd">
-                            <path d="M19.45 13.77H7.18l-.83-7.99H20.9l-1.45 7.99zM9.58 18.8c.57 0 1.04.49 1.04 1.1 0 .61-.47 1.1-1.04 1.1-.57 0-1.03-.49-1.03-1.1 0-.61.46-1.1 1.03-1.1zm8.21 2.2c-.57 0-1.03-.49-1.03-1.1 0-.61.46-1.1 1.03-1.1.57 0 1.04.49 1.04 1.1 0 .61-.47 1.1-1.04 1.1zm4.09-16.04c-.09-.11-.23-.18-.38-.18H6.25l-.24-2.33c-.03-.26-.24-.45-.5-.45H2.5c-.28 0-.5.22-.5.5s.22.5.5.5h2.56l.24 2.28v.06l.93 8.99.39 3.78c.03.26.24.45.5.45h.9c-.29.36-.47.83-.47 1.34 0 1.16.91 2.1 2.03 2.1 1.12 0 2.04-.94 2.04-2.1 0-.52-.19-1-.5-1.36l5.15-.02c-.32.37-.51.85-.51 1.38 0 1.16.91 2.1 2.03 2.1 1.12 0 2.04-.94 2.04-2.1 0-.54-.2-1.03-.53-1.4h.05c.27 0 .5-.23.49-.5 0-.28-.22-.5-.5-.5l-11.77.06-.29-2.79h12.59c.25 0 .45-.17.49-.41l1.63-8.99c.03-.14-.01-.29-.11-.41z"></path>
-                            <path d="M8.317 11.78c-.25 0-.468-.19-.496-.445l-.462-4.24c-.03-.274.168-.52.442-.55.264-.03.52.166.55.44l.466 4.24c.03.275-.168.522-.442.552-.02.002-.037.003-.056.003"></path>
-                          </g>
+                            <g fill-rule="evenodd">
+                                <path d="M19.45 13.77H7.18l-.83-7.99H20.9l-1.45 7.99zM9.58 18.8c.57 0 1.04.49 1.04 1.1 0 .61-.47 1.1-1.04 1.1-.57 0-1.03-.49-1.03-1.1 0-.61.46-1.1 1.03-1.1zm8.21 2.2c-.57 0-1.03-.49-1.03-1.1 0-.61.46-1.1 1.03-1.1.57 0 1.04.49 1.04 1.1 0 .61-.47 1.1-1.04 1.1zm4.09-16.04c-.09-.11-.23-.18-.38-.18H6.25l-.24-2.33c-.03-.26-.24-.45-.5-.45H2.5c-.28 0-.5.22-.5.5s.22.5.5.5h2.56l.24 2.28v.06l.93 8.99.39 3.78c.03.26.24.45.5.45h.9c-.29.36-.47.83-.47 1.34 0 1.16.91 2.1 2.03 2.1 1.12 0 2.04-.94 2.04-2.1 0-.52-.19-1-.5-1.36l5.15-.02c-.32.37-.51.85-.51 1.38 0 1.16.91 2.1 2.03 2.1 1.12 0 2.04-.94 2.04-2.1 0-.54-.2-1.03-.53-1.4h.05c.27 0 .5-.23.49-.5 0-.28-.22-.5-.5-.5l-11.77.06-.29-2.79h12.59c.25 0 .45-.17.49-.41l1.63-8.99c.03-.14-.01-.29-.11-.41z"></path>
+                                <path d="M8.317 11.78c-.25 0-.468-.19-.496-.445l-.462-4.24c-.03-.274.168-.52.442-.55.264-.03.52.166.55.44l.466 4.24c.03.275-.168.522-.442.552-.02.002-.037.003-.056.003"></path>
+                            </g>
                         </svg>            
                     </div>
     			</div>
-                <hr/>
-    			<div class="row sticky">
-    				<div class="col">Sale</div>
-    				<div class="col">Living</div>
-    				<div class="col">Bedroom</div>
-    				<div class="col">Dining</div>
-    				<div class="col">Storage</div>
-    				<div class="col">Study</div>
-    				<div class="col">Mattresses</div>
-    				<div class="col">Interiors</div>
-    				<div class="col">Decor</div>
-    				<div class="col">Collections</div>
-    				<div class="col">New</div>
-    			</div>
-    		</div>	
+            </div>     -->  
+            <hr/>
+            <div class="container">
+                <div class="nav">
+                    <a href="#" title="Promotions " data-toggle="popover-down" data-trigger="hover" data-content=""><div class="col">Sale</div></a>
+                    <a href="#" title="Sofas" data-toggle="popover-down" data-trigger="hover" data-content=""><div class="col">Living</div></a>
+                    <a href="#" title="Beds" data-toggle="popover-down" data-trigger="hover" data-content=""><div class="col">Bedroom</div></a>
+                    <a href="#" title="Dining tables" data-toggle="popover-down" data-trigger="hover" data-content=""><div class="col">Dining</div></a>
+                    <a href="#" title="Racks" data-toggle="popover-down" data-trigger="hover" data-content=""><div class="col">Storage</div></a>
+                    <a href="#" title="Study tables" data-toggle="popover-down" data-trigger="hover" data-content=""><div class="col">Study</div></a>
+                    <a href="#" title="Bubble mattresses" data-toggle="popover-down" data-trigger="hover" data-content=""><div class="col">Mattresses</div></a>
+                    <a href="#" title="Interiors" data-toggle="popover-down" data-trigger="hover" data-content=""><div class="col">Interiors</div></a>
+                    <a href="#" title="Lights" data-toggle="popover-down" data-trigger="hover" data-content=""><div class="col">Decor</div></a>
+                    <a href="#" title=" Favourites Packages" data-toggle="popover-down" data-trigger="hover" data-content=""><div class="col">Collections</div></a>
+                    <a href="#" title="All new arrivals" data-toggle="popover-down" data-trigger="hover" data-content=""><div class="col">New</div></a>
+                </div>
+            </div>
         </header>
+        <hr/>
     	<div class="main-container">
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="http://via.placeholder.com/800x400" alt="First slide">
+                        <img class="d-block w-100" src="./img/slide 1.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="http://via.placeholder.com/800x400" alt="Second slide">
+                        <img class="d-block w-100" src="./img/slide 2.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="http://via.placeholder.com/800x400" alt="Third slide">
+                        <img class="d-block w-100" src="./img/slide 3.jpg" alt="Third slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -311,120 +391,430 @@
         </div>
         <div class="container">
             <img src="https://ul-a.akamaihd.net/media/collections/listing/Marketing_Banner_-_Top.jpg?1521693981"  id="big" width="100%"/>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"><h3 class="headin">STORAGE BEDS</h3></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"><button class="button_primary">Shop Now</button></div>
+                <div class="col"></div>
+            </div>
         </div>
     </div>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="./img/Marketing-Left.jpg" width="100%">
+                <button class="button_primary">Shop Now</button>
+            </div>
+            <div class="col">
+                <img src="./img/Marketing-Right.jpg" width="100%">
+                <button class="button_primary">Shop Now</button>
+            </div>
+        </div>
     </div>
     <div class="container">
-    	<div class="header">
-    		<span>Smart Look</span>
-    	</div>
+        <div class="row">
+            <div class="col"></div>
+            <div class="col"><h1>SMART LOOK</h1></div>
+            <div class="col"></div>
+        </div>
     	<div class="row">
     		<div class="col">
     			<img src="https://ul-a.akamaihd.net/media/collections/listing/In_The_Spotlight_-_Main.jpg?1521697894">
     		</div>
     		<div class="col">
     			<img src="https://ul-a.akamaihd.net/media/collections/listing/In_The_Spotlight_-_Small.jpg?1521697901">
-    			<h1>Pulling An All-Nighter?</h1>
-    			<p>Ouch...that's never pretty. But the good news? You can count on these ergonomic study designs to make hard work a little easier.</p>
-    			<button class="button_primary">Explore Now</button>
+                <div class="outline_box">
+                    <h1>Pulling An All-Nighter?</h1>
+                    <p class="font-md">Ouch...that's never pretty. But the good news? You can count on these ergonomic study designs to make hard work a little easier.</p>
+                    <button class="button_primary">Explore Now</button> 
+                </div>    		
     		</div>
     	</div>
     </div>
     <!-- list of new arrivals -->
     <div class="container ">
-    	<span><h2>NEW ARRIVALS</h2></span>
     	<div class="row">
-    		<div class="card" style="width: 20rem;">
-    			<img class="card-img-top" src="./IMG/New-Arrivals-1.jpg" alt="Card image 1">
+            <div class="col"></div>
+            <div class="col"><h2>NEW ARRIVALS</h2></div>
+            <div class="col"></div>
+        </div>
+    	<div class="row">
+    		<div class="card mar" style="width: 20rem;">
+    			<img class="card-img-top" src="./img/New-Arrivals-1.jpg" alt="Card image 1">
     			<div class="card-body">
     				<h3>WESTTON LEATHERETTE SOFA</h3>
     				<button class="button_primary">Shop Now</button>	
     			</div>
     		</div>
-    		<div class="card" style="width: 20rem;">
-    			<img class="card-img-top" src="./IMG/New-Arrivals-8.jpg" alt="Card image 2">
+    		<div class="card mar" style="width: 20rem;">
+    			<img class="card-img-top" src="./img/New-Arrivals-8.jpg" alt="Card image 2">
     			<div class="card-body">
     				 <h3>SNNOZY PET COLLECTION</h3>
     				 <button class="button_primary">Shop Now</button>
     			</div>
     		</div>
-    		<div class="card" style="width: 20rem;">
-    			<img class="card-img-top" src="https://ul-a.akamaihd.net/media/collections/listing/New-Arrivals-5.jpg?1520839656" alt="Card image 3">
+    		<div class="card mar" style="width: 20rem;">
+    			<img class="card-img-top" src="./img/New-Arrivals-5.jpg" alt="Card image 3">
     			<div class="card-body">
-    				 <h3>VERLET CHEST OF DRAWERS</h3>
+    				 <h3>PATARA SERVING TROLLEY</h3>
     				 <button class="button_primary">Shop Now</button>
     			</div>
     		</div>
+<!--             <div class="card mar" style="width: 20rem;">
+                <img class="card-img-top" src="./img/New-Arrivals-6.jpg" alt="Card image 3">
+                <div class="card-body">
+                     <h3>VERLET CHEST OF DRAWERS</h3>
+                     <button class="button_primary">Shop Now</button>
+                </div>
+            </div> -->
     	</div>
     </div>
     <!-- end of list of new arrivals -->
     <!-- start of customer reviews -->
     <div class="container">
-    	<span><h1>CUSTOMERS STORIES</h1> </span>
-    	<div class="card-deck">
-	    	<div class="card" style="max-height: 150px">
-	    	    <img class="card-img-top" width="auto" src="https://ul-a.akamaihd.net/testimonials/250x300/2647_20160821075017.jpg" alt="Card image cap">
-	    	    <div class="card-body">
-	    	      <h5 class="card-title">Alexandria Book Shelf</h5>
-	    	      <button class="button_primary">VIEW PRODUCT</button>
-	    	      <p class="card-text">Having beutiful furniture in your home is about modernity or sophistication or cult. It is very musch a necessity for a healthy outlook to your own life...#ULstory #Happysouls</p>
-	    	    </div>
-		    	<div class="card-footer">
-		    	    <small class="text-muted">Last updated 3 mins ago</small>
-		    	</div>
-    	  	</div>
-    	  	<div class="card" style="max-height: 150px">
-    	    	<img class="card-img-top" width="auto" src="https://ul-a.akamaihd.net/testimonials/250x300/2607_20160808061023.jpg" alt="Card image cap">
-    	    	<div class="card-body">
-    	      		<h5 class="card-title">Williams Bed</h5>
-    	      		<button class="button_primary">VIEW PRODUCT</button>
-    	      		<p class="card-text">#ULStory Thanks to Urban Ladder. Desperately wanted a bigger bed for my son's room. Picked Williams Bed with lovely finish</p>
-    	    	</div>
-    	    	<div class="card-footer">
-    	      		<small class="text-muted">Last updated 3 mins ago</small>
-    	   		 </div>
-    	  	</div>
-    	  	<div class="card" style="max-height: 150px">
-    	    	<img class="card-img-top" width="auto" src="https://ul-a.akamaihd.net/testimonials/250x300/2601_20160807043752.jpg" alt="Card image cap">
-    	   		<div class="card-body">
-		    	    <h5 class="card-title">Striado TV Unit</h5>
-		    	    <button class="button_primary">VIEW PRODUCT</button>
-		    	    <p class="card-text">#Ulstory Straido TV Unit,just can't stop looking at it every time we enter the room. It has delivered much more than expeected, a storage cum display unit and a object of our admiration. We just love it!</p>
-    	    	</div>
-    	    <div class="card-footer">
-    	      	<small class="text-muted">Last updated 3 mins ago</small>
-    	    </div>
-    	  </div>
-    	</div>
-    </div>
-    <!-- End of customer reviews -->
-    <div class="container">
     	<div class="row">
-    		<header>Urban Ladder</header>
-		</div>
-    	<pre><p>
-    		Urban Ladder offers a unique selection of stylish, contemporary, and chic furniture online. Our online furniture range includes sofa sets, beds, dining tables, TV units, cupboards, dressing tables, sofa cum beds, study tables, mattress, computer tables and lots more. All our wooden furniture designs are available online at urbanladder.com. On our portal, you can browse as many furniture designs across categories as you like, sort and filter, compare options, easily select and buy the ones you like, and stay updated about new and contemporary designs.
+            <div class="col"></div>
+            <div class="col"><h2>CUSTOMERS SERVICES</h2></div>   
+            <div class="col"></div>      
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="outline_box" id="customer">
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col">
+                            <div class="profile"> 
+                            </div>
+                        </div>
+                        <div class="col"></div>
+                    </div>  
+                    <div class="row">
+                        <img src="./img/customer1.jpg" width="80%" />
+                    </div> 
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col">
+                            <button class="button_primary">View Product</button>
+                        </div>
+                        <div class="col"></div>
+                    </div> 
+                    <div class="row">
+                        <p>Having beutiful furniture in your home is about modernity or sophistication or cult. It is very musch a necessity for a healthy outlook to your own life...#ULstory #Happysouls</p>
+                    </div>
+                </div>    
+            </div>
+            <div class="col">
+                <div class="outline_box" id="customer">
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col">
+                            <div class="profile"> 
+                            </div>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row">
+                        <img src="./img/customer2.jpg" width="80%" />
+                    </div>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col">
+                            <button class="button_primary">View Product</button>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row">
+                        <p>ULStory Thanks to Urban Ladder. Desperately wanted a bigger bed for my son's room. Picked Williams Bed with lovely finish</p>
+                    </div>
+                </div> 
+            </div>l
+            <div class="col">
+                <div class="outline_box" id="customer">
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col">
+                            <div class="profile"> 
+                            </div>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row">
+                        <img src="./img/customer3.jpg" width="80%" />
+                    </div>
+                    <div class="row">
+                        <div class="col"></div>
+                        <div class="col">
+                            <button class="button_primary">View Product</button>
+                        </div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row">
+                        <p>#Ulstory Straido TV Unit,just can't stop looking at it every time we enter the room. It has delivered much more than expeected, a storage cum display unit and a object of our admiration. We just love it!</p>
+                    </div>
+                </div> 
+            </div>l
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col">
+                    <button class="button_secondary">View All Customers Stories</button>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+        <div class="main-container">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col"><h2>Urban Ladder</h2></div>
+                <div class="col"></div>
+            </div>
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <p class="font-md">
+                        Urban Ladder offers a unique selection of stylish, contemporary, and chic furniture online. Our online furniture range includes sofa sets, beds, dining tables, TV units, cupboards, dressing tables, sofa cum beds, study tables, mattress, computer tables and lots more. All our wooden furniture designs are available online at urbanladder.com. On our portal, you can browse as many furniture designs across categories as you like, sort and filter, compare options, easily select and buy the ones you like, and stay updated about new and contemporary designs.
 
-    		Furniture is what turns your house into a home. Well-designed furniture is not just functional or utilitarian (for example, tables and desks for work or cabinets for storage) but also a reflection of your taste and style. We have hundreds of furniture designs in solid wood, engineered wood, metal, etc., as well as soft furnishings and home decor items.
+                        Furniture is what turns your house into a home. Well-designed furniture is not just functional or utilitarian (for example, tables and desks for work or cabinets for storage) but also a reflection of your taste and style. We have hundreds of furniture designs in solid wood, engineered wood, metal, etc., as well as soft furnishings and home decor items.As an online furniture company, we know that service is as important as our products. That's why we pay attention to every detail of the process, from the time of ordering till your order reaches your home, and even afterwards.
 
-    		As an online furniture company, we know that service is as important as our products. That's why we pay attention to every detail of the process, from the time of ordering till your order reaches your home, and even afterwards.
+                        The furniture you choose for a room can make or break it. The furniture designs you choose are what determine the personality of the room and say something about the inhabitants of the house. Modern furniture design is all about finding the right balance between design and functionality, while traditional designs have evolved over time, reflecting the fashion fads of each period. Whether you are on the lookout for modern designs or more traditional styles, there are some features to keep an eye out for.Before you shop for home furniture designs, the first step is to picture the fully furnished rooms in your mind. What do you want each space to be used for? Will it be a private space, for family, or for entertaining? Secondly, consider the layout of each space, including the position of doors and windows, to understand how many and how big your furniture pieces can be, while still leaving enough room for people to walk around unobstructed.
 
-    		The furniture you choose for a room can make or break it. The furniture designs you choose are what determine the personality of the room and say something about the inhabitants of the house. Modern furniture design is all about finding the right balance between design and functionality, while traditional designs have evolved over time, reflecting the fashion fads of each period. Whether you are on the lookout for modern designs or more traditional styles, there are some features to keep an eye out for.
-
-    		Before you shop for home furniture designs, the first step is to picture the fully furnished rooms in your mind. What do you want each space to be used for? Will it be a private space, for family, or for entertaining? Secondly, consider the layout of each space, including the position of doors and windows, to understand how many and how big your furniture pieces can be, while still leaving enough room for people to walk around unobstructed.
-
-    		If you have a large space, you have the luxury of adding a number of the latest furniture designs to the room, without overcrowding it, of course. For smaller rooms, it’s best that you look for multifunctional furniture designs that let you do more without taking up a lot of room. Once you identify what your room is going to be used for and what pieces you would like to furnish it with, you can proceed to find the right pieces online.
-    	</p></pre>
-    </div>
+                        If you have a large space, you have the luxury of adding a number of the latest furniture designs to the room, without overcrowding it, of course. For smaller rooms, it’s best that you look for multifunctional furniture designs that let you do more without taking up a lot of room. Once you identify what your room is going to be used for and what pieces you would like to furnish it with, you can proceed to find the right pieces online.
+                    </p>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+        <hr/>
+        <div class="container">
+            <div class="row">
+                <div class="col-1"></div>
+                <div class="col-10"><h3>SIGN UP TO GET CHANCE TO WIN A GIVE AWAY OF THE WEEK</h3></div>         
+                <div class="col-1"></div>                              
+            </div>
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-6">
+                    <input type="email" name="email" id="email" placeholder="Type your Email">
+                    <button class="button_primary">Subscribe</button>
+                </div>   
+                <div class="col-3"></div>      
+            </div>
+        </div>
+        <hr/> 
     <!-- start of footer  -->
-    <div class="container footer">
-    	
-    </div>
+    <div class="main-container">
+        <div class="row">
+            <div class="col-md-3 links">
+                <h3>The Company:</h3>
+            <ul class="col-md-6">
+                <li>
+                    <a href="https://www.urbanladder.com/about-urban-ladder?src=g_footer">About Us</a>
+                </li>
+                <li>
+                    <a href="https://www.urbanladder.com/help?src=g_footer">Help</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.urbanladder.com/blog?src=g_footer">Blog</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.urbanladder.com/inside-ul?src=g_footer">Inside UL</a>
+                </li>
+            </ul>
+            <ul class="col-md-6 no-padding bodytext">
+                <li>
+                    <a href="https://www.urbanladder.com/careers?src=g_footer">Careers</a>
+                </li>
+                <li>
+                    <a href="https://www.urbanladder.com/press-coverage?src=g_footer">Press</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/company/2482371/life/?src=g_footer">Team</a>
+                </li>
+                <li>
+                    <a href="https://www.urbanladder.com/privacy-policy?src=g_footer">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-4 ">
+            <h3 >More Information:</h3>
+            <ul class="col-md-6 ">
+                <li>
+                    <a href="https://www.urbanladder.com/security-payments?src=g_footer">Payment &amp; Security</a>
+                </li>
+                <li>
+                    <a href="https://www.urbanladder.com/shipping-delivery?src=g_footer">Shipping &amp; Delivery</a>
+                </li>
+                <li>
+                    <a href="https://www.urbanladder.com/terms-of-use?src=g_footer">Terms of Use</a>
+                </li>
+                <li>
+                    <a href="https://www.urbanladder.com/terms-of-offer-for-sale?src=g_footer">Terms of Offer + Sale</a>
+                </li>
+            </ul>
+            <ul class="col-md-6 ">
+                <li>
+                    <a href="https://www.urbanladder.com/help/contact-us?src=g_footer">Contact Us</a>
+                </li>
+                <li>
+                    <a href="https://www.urbanladder.com/furniture-stores?src=g_footer">Visit Us</a>
+                </li>
+                <li>
+                    <a href="https://www.urbanladder.com/the-design-network?src=g_footer">Designer Network</a>
+                </li>
+                <li>
+                    <a href="https://www.urbanladder.com/buy-in-bulk?src=g_footer">Buy In Bulk</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-2 ">
+            <h3 >Explore More</h3>
+            <ul >
+                <li class="font-sm">
+                    <a href="https://www.urbanladder.com/refer_and_earn?src=g_footer">Refer &amp; Earn</a>
+                </li>
+                <li class="font-sm">
+                    <a href="https://www.urbanladder.com/exchange?src=g_footer">Exchange</a>
+                </li>
+                <li class="font-sm">
+                    <a href="https://www.urbanladder.com/gift-cards?src=g_footer">Gift Cards</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-md-3">
+            <h3 >Registered Address</h3>
+            <ul >
+                <li class="font-sm">
+                Urban Ladder Home Décor Solutions Pvt Ltd, <br>1st, 2nd &amp; 3rd Floor, No 259 and 276, Amarjyothi HBCS Layout, Domlur, Bengaluru-560 071, Karnataka, India
+                </li>
+                <li class="font-sm">
+                <b>CIN: </b>
+                U74999KA2012PTC062610
+                </li>
+                <li class="font-sm">
+                <b>Grievance Contact: </b>
+                <div>Kaustabh Chakraborty</div>
+                <div>hello@urbanladder.com</div>
+                </li>
+            </ul>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <h3 >Connect With Us:</h3>
+                <ul>
+                    <li >
+                        <div class="fcallicon">
+                            <a class="icofont-call inverted" data-gaclick="1" data-gaaction="Click_Footer_Phone" href="tel:08046666777">
+                                <span class="phone-number">080-46666777</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li >
+                        <a href="www.facebook.com">
+                            <div class="social">
+                                <div id="facebook">
+                                        
+                                </div>                                    
+                            </div>
+                        </a>    
+                    </li>
+                    <li >
+                        <a href="www.youtube.com">
+                            
+                                <div class="social">
+                                    <div id="youtube">
+                                        
+                                    </div>                                    
+                                </div>    
+                           
+                        </a>    
+                    </li>
+                    <li >
+                        <a href="www.twitter.com">
+                            
+                                <div class="social">
+                                    <div id="twitter">
+                                        
+                                    </div>                                    
+                                </div>    
+                            
+                        </a>    
+                    </li>
+                    <li >
+                        <a href="www.instagram.com">
+                           
+                                <div class="social">
+                                    <div id="instagram">
+                                    
+                                    </div>                                   
+                                </div>    
+                           
+                        </a>    
+                    </li>
+                    <li >
+                        <a href="www.pinterest.com">
+                            
+                                <div class="social">  
+                                    <div id="pinterest">
+                                        
+                                    </div>                                  
+                                </div>    
+                           
+                        </a>    
+                    </li>
+                </ul>
+            </div>
+        <div class="col-md-5 links no-padding">
+            <h3 class="text-left with-stroke-inverted">Download App:</h3>
+                <div class="download-btns">
+                    <a target="_blank" href="https://itunes.apple.com/us/app/urban-ladder/id959886087">
+                        <img alt="Download Urban Ladder App from Apple Store" data-gaclick="1" data-gacategory="app download" data-gaaction="clicked" data-galabel="ios" class="ios" src="Urban%20Ladder_files/app_store_badge.svg">
+                    </a>
+                    <a target="_blank" href="https://play.google.com/store/apps/details?id=com.urbanladder.catalog">
+                        <img alt="Download Urban Ladder App from Playstore" data-gaclick="1" data-gacategory="app download" data-gaaction="clicked" data-galabel="android" class="android" src="Urban%20Ladder_files/google-play-badge.png">
+                    </a>
+                </div>
+        </div>
+        <h4 class="text-center copyright">
+            <span>
+                © 2012-2018 Urban Ladder
+            </span>
+        </h4>
     <!-- End of footer -->
+    <!-- modal for pop up screen -->
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <h4 class="modal-title">SignUp</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <!-- Modal body -->
+                <div class="modal-body">
+                    Modal body..
+                </div>
+                <!-- Modal footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    <!-- modal ends here -->
 
 
 
     	<!-- Optional JavaScript -->
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="popover"]').popover();   
+            });
+        </script>
     	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
     	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

@@ -1,52 +1,44 @@
-//search box
-.searchbox{
-	width: 550px;
-	height: unset;
-}
 //Buttons
 .button_primary{
-	background-color: orange;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 40px;
+	width: 170px;
+	background-color: #ed7745;
 	color: white;
-	:hover{
-		background-color: white;
-		border: 1px solid orange;
-		color: orange;
-	} 
+	border: 1px solid #ed7745;
+	border-radius: 5%;
 }
-header{
-	div.container{
-		div.sticky{
-			position: -webkit-sticky;
-			position: sticky;	
-			}
-	}
+.button_secondary{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 40px;
+	width: 170px;
+	background-color: white;
+	color: #ed7745;
+	border: 1px solid #ed7745;
+	border-radius: 5%;
 }
-div.svg{
-	padding-left: 350px;
-	a{
-		color: black;
-		:hover{
-			color: orange;
-			pointer: pointer;
-			text-decoration: none;
-		}
-		div.col{
-			svg{
-				height: 60px;
-				width: 60px;
-				margin: 15px;
-			}
-		}
-	}
+.small{
+	height: 40px;
+	width: 100px;
 }
-span.centre{
-	 margin: auto;
-		h2{
-			span{
-				margin-left: 400px;	
-		}
-		div.mid{
-			text-align: centre;
-		}
-	}
+.lg{
+	height: 40px; 
+	width: 300px; 
+}
+.button_primary:hover{
+	background-color: white;
+	pointer: pointer;
+	border: 1px solid #ed7745;
+	border-radius: 5%;
+	color: #ed7745;
+}
+
+.button_secondary:hover{
+	background-color: #ed7745;
+	pointer: pointer;
+	border: 1px solid #ed7745;
+	border-radius: 5%;
+	color: white;
 }
