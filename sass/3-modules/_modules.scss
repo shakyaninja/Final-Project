@@ -3,7 +3,8 @@ div.head-row{
 	.col-2{
 		line-height: 50px;
 	}
-}.row{
+}
+.row{
 	.col{
 		.outline_box{
 			.row{
@@ -33,29 +34,6 @@ div{
 		border: 1px solid white;
 		border-radius: 50%;
 		background: url(../img/profile.jpg) -72px -77px;
-	}
-	div.social{
-		margin:0px;
-		padding: 0px;
-		display: inline-block;
-		height: 25px;
-		width: 25px;
-		border: 1px solid white;
-		div#facebook{
-			background: url(../img/facebook.png) 0px 0px;
-		}
-		div#youtube{
-			background: url(../img/youtube.png) 0px 0px;
-		}
-		div#twitter{
-			background: url(../img/twitter.png) 0px 0px;
-		}
-		div#linkedin{
-			background: url(../img/linkedin.png) 0px 0px;
-		}
-		div#pinterest{
-			background: url(../img/pinterest.png) 0px 0px;
-		}
 	}
 	span.header{
 		h1#title{
@@ -140,6 +118,166 @@ main{
 		.icon{
 			.col{
 				padding: 20px;
+			}
+		}
+	}
+}
+footer
+{
+	.row
+	{
+		.col-md-7
+		{
+			ul
+			{
+				display: inline-block;
+				li
+				{
+					a
+					{
+						div.social
+						{
+							margin:0px;
+							padding: 0px;
+							display: inline-block;
+							height: 25px;
+							width: 25px;
+							border: 1px solid white;
+							div#facebook
+							{
+								background: url("../img/facebook.png") 0px 0px;
+							}
+							div#youtube
+							{
+								background: url("../img/youtube.png") 0px 0px;
+							}
+							div#twitter
+							{
+								background: url("../img/twitter.png") 0px 0px;
+							}
+							div#linkedin
+							{
+								background: url("../img/linkedin.png") 0px 0px;
+							}
+							div#pinterest
+							{
+								background: url("../img/pinterest.png") 0px 0px;
+							}
+						}
+					}
+				}			
+			}
+		}
+		.col-md-5
+		{
+			div
+			{
+				ul
+				{
+					display: inline-block;
+					.badge1
+					{
+						display: inline-block;
+						height: 60px;
+						width: 150px;
+						background-image: url("../img/app.png");
+						background-position: -149px -48px;
+						background-repeat: no;
+					}
+					.badge1:hover
+					{
+						display: inline-block;
+						height: 50px;
+						width: 150px;
+						background-image: url("../img/app.png");
+						background-position: -149px 156px;
+						background-repeat: no;
+					}
+					.badge2
+					{
+						display: inline-block;
+						height: 60px;
+						width: 150px;
+						background-image: url("../img/app.png");
+						background-position: 2px -51px;
+						background-repeat: no;
+					}
+					.badge2:hover
+					{
+						display: inline-block;
+						height: 60px;
+						width: 150px;
+						background-image: url("../img/app.png");
+						background-position: 0px 6px;
+						background-repeat: no;
+					}
+				}
+			}
+		}
+	}
+}
+main{
+	.bg_black{
+		height: 100vh;
+		background-color: #4c4c4c;
+		.container{
+			margin-top: 0px;
+			background-color: #ffffff;
+			.row{
+				.col-6{
+					img{
+						margin: 0px;
+						width: 100%;
+					}
+					.row{
+						margin-bottom: 10px;
+						.sm{
+							color: grey;
+						}
+						.col-8{
+							h4{
+								font-size: 18px;
+								text-decoration: bold;
+							}
+						}
+						.col-10{
+							h3#logtitle{
+								font-size: 30px;
+								color: #2f4858;
+							}
+						}
+						.col{
+							button.facebook{
+								height: 45px;
+								background-color: #3a579d;
+								width: 100%;
+								color: white;
+								img{
+									width: 20%;
+								}
+							}
+							button.google{
+								height: 45px;
+								background-color: #db4934;
+								width: 100%;
+								color: white;
+								img{
+									width: 20%;
+								}
+							}
+						}
+						.col-10{
+							form{
+								.row{
+									input{
+										width: 100%;
+									}
+								}
+							}
+						}
+					}
+
+				}
 			}
 		}
 	}

@@ -1,86 +1,4 @@
-// .main-container{
-// 	width:100%;
-// 	padding-left: 100px;
-// 	padding-right: 100px; 
-// 		.backgrey{
-// 			background-color: grey;
-// 		}
-// }
-// div.container{
-// 	div.nav{
-// 		a{
-// 			margin: auto;	
-// 		}
-// 	}
-// }
-// div{
-// 	.mar{
-// 		margin: 30px;
-// 	}
-// 	.row{
-// 		margin: auto;
-// 	}
-// }
-// header{
-// 	div.container{
-// 		div.nav{
-// 			position: sticky;	
-// 		}
-// 	}
-// }
 
-
-// span.centre{
-// 	 margin: auto;
-// 		h2{
-// 			span{
-// 				margin-left: 400px;	
-// 		}
-// 		div.mid{
-// 			text-align: centre;
-// 		}
-// 	}
-// }
-// div.row{
-	// .outline_box{
-	// 	border: 1px solid grey;
-	// 	padding: 20px;
-	// 	#customer #social{
-	// 		min-height: 700px;	
-	// 	}
-	// 	div{
-	// 		margin: auto;
-	// 			img{
-	// 				margin: auto;
-	// 		}
-	// 	}
-	// }
-// }
-// .container{
-// 	div.row{
-// 		.button_secondary{
-// 			height: 40px;
-// 			width: 200px;
-// 			border: 1px solid orange;
-// 			color: orange;
-// 			margin-top: 20px;
-// 			margin-bottom: 20px; 
-// 			margin-left: auto;
-// 			margin-right: auto;
-// 			:hover{
-// 				color: white;
-// 				background-color: orange;
-// 			}
-// 		}
-// 	}
-// }
-// div{
-// 	ul{
-// 		li{
-// 			list-style: none;
-// 		}
-// 	}
-// }	
 header
 {
 	.container{
@@ -106,19 +24,14 @@ header
 		}
 		.nav2{
 			.row{
-				.col-2{
-					svg{
-						vertical-align: baseline;
-					}
-				}
 				.col-6{
-					form{
-						vertical-align: baseline;
+					#search{
+						margin-top: 25px;
 					}
 				}
 				.col-1 {
 					svg{
-						vertical-align: baseline;
+						margin-top: 25px;
 					}
 				}
 			}
@@ -198,6 +111,11 @@ main
 				text-decoration: none;
 				div.col
 				{
+					.category-name
+					{
+						font-size: 20px;
+						margin-left: 10px;
+					}	
 					svg
 					{
 						height: 60px;
@@ -359,7 +277,7 @@ main
 					}
 				}
 			}
-			.col
+			.shadow
 			{
 				.hidden
 				{
@@ -408,7 +326,7 @@ main
 					}
 				}
 			}
-			.col:hover{
+			.shadow:hover{
 				box-shadow: 5px 5px 5px 5px #eeeeee;
 			}
 		}

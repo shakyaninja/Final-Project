@@ -1,5 +1,96 @@
-@media screen and (max-width: 670px){
-	section#content-someting .container-fluid .row .col-xl-6 .vertical-center{
-		padding: 50px;
+@media screen and (max-width: 670px)
+{
+	header
+	{
+		.container
+		{
+			max-width: 300px ;
+			.nav1
+			{
+				display: none;
+			}
+			hr
+			{
+				display: none;
+			}
+			.nav2
+			{
+				div.col-2
+				{
+					max-width: 33.33%;
+					figure
+					{
+						svg.logo-with-gradient
+						{
+							margin: 0px;
+							padding: 0px;
+						}
+						svg.logo-text
+						{
+							margin: 0px;
+							padding: 0px;
+						}
+					}
+				}
+				div.col-6
+				{
+					max-width: 55.55%;
+					#search
+					{
+						margin-top: 20px;	
+					}
+				}
+				div.col-1
+				{
+					display: none;
+				}
+				div.menu
+				{
+					display: inline-block;
+				}
+				.menu:hover
+				{
+					pointer: pointer;	
+				}
+			}
+			.nav3
+			{
+				.row{
+					ul{
+						li{
+							display: none;
+						}
+					}
+				}
+			}
+		}
+	}
+	main{
+		.main-container{
+			max-width:300px;
+			.carouselslide{
+				width: 80%;
+			}
+		}
+	}
+	#grey{
+		max-width:300px;
+		padding: 0px;
+		.row{
+			width: 280px;
+			h2.title{
+				margin-left: 20px;
+			}
+		}
+		.svg{
+			padding: 0px;
+			margin: 0px;
+			a{
+				.col{
+					width: 50%;
+					margin: 0px;
+				}
+			}
+		}
 	}
 }

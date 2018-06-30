@@ -33,12 +33,10 @@ header .container .nav1 .row ul {
     header .container .nav1 .row ul li a:hover {
       color: #ed7745;
       text-decoration: none; }
-header .container .nav2 .row .col-2 svg {
-  vertical-align: baseline; }
-header .container .nav2 .row .col-6 form {
-  vertical-align: baseline; }
+header .container .nav2 .row .col-6 #search {
+  margin-top: 25px; }
 header .container .nav2 .row .col-1 svg {
-  vertical-align: baseline; }
+  margin-top: 25px; }
 header .container .nav3 .row {
   margin: 0px; }
   header .container .nav3 .row ul li {
@@ -76,6 +74,9 @@ main #grey {
     main #grey .svg a {
       color: black;
       text-decoration: none; }
+      main #grey .svg a div.col .category-name {
+        font-size: 20px;
+        margin-left: 10px; }
       main #grey .svg a div.col svg {
         height: 60px;
         width: 60px;
@@ -153,29 +154,29 @@ main .container .row .last {
     color: grey; }
   main .container .row .last .row .col-6 h2 {
     color: #ed7745; }
-main .container .row .col .hidden {
+main .container .row .shadow .hidden {
   opacity: 0; }
-  main .container .row .col .hidden .col {
+  main .container .row .shadow .hidden .col {
     box-shadow: none; }
-main .container .row .col .hidden:hover {
+main .container .row .shadow .hidden:hover {
   opacity: 1; }
-main .container .row .col .row {
+main .container .row .shadow .row {
   margin: 2px; }
-  main .container .row .col .row ul {
+  main .container .row .shadow .row ul {
     list-style: none; }
-    main .container .row .col .row ul li h4 {
+    main .container .row .shadow .row ul li h4 {
       text-decoration: bold; }
-    main .container .row .col .row ul li .ref {
+    main .container .row .shadow .row ul li .ref {
       color: grey; }
-      main .container .row .col .row ul li .ref a {
+      main .container .row .shadow .row ul li .ref a {
         text-decoration: none;
         color: #f6f0ef; }
-      main .container .row .col .row ul li .ref a:hover {
+      main .container .row .shadow .row ul li .ref a:hover {
         text-decoration: none;
         color: #ed7745; }
-    main .container .row .col .row ul li span {
+    main .container .row .shadow .row ul li span {
       text-decoration: bold; }
-main .container .row .col:hover {
+main .container .row .shadow:hover {
   box-shadow: 5px 5px 5px 5px #eeeeee; }
 
 .button_primary {
@@ -240,23 +241,6 @@ div .profile {
   border: 1px solid white;
   border-radius: 50%;
   background: url(../img/profile.jpg) -72px -77px; }
-div div.social {
-  margin: 0px;
-  padding: 0px;
-  display: inline-block;
-  height: 25px;
-  width: 25px;
-  border: 1px solid white; }
-  div div.social div#facebook {
-    background: url(../img/facebook.png) 0px 0px; }
-  div div.social div#youtube {
-    background: url(../img/youtube.png) 0px 0px; }
-  div div.social div#twitter {
-    background: url(../img/twitter.png) 0px 0px; }
-  div div.social div#linkedin {
-    background: url(../img/linkedin.png) 0px 0px; }
-  div div.social div#pinterest {
-    background: url(../img/pinterest.png) 0px 0px; }
 div span.header h1#title {
   font-size: 2.5rem; }
 
@@ -301,9 +285,141 @@ main .container .row {
 main .container .icon .col {
   padding: 20px; }
 
+footer .row .col-md-7 ul {
+  display: inline-block; }
+  footer .row .col-md-7 ul li a div.social {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border: 1px solid white; }
+    footer .row .col-md-7 ul li a div.social div#facebook {
+      background: url("../img/facebook.png") 0px 0px; }
+    footer .row .col-md-7 ul li a div.social div#youtube {
+      background: url("../img/youtube.png") 0px 0px; }
+    footer .row .col-md-7 ul li a div.social div#twitter {
+      background: url("../img/twitter.png") 0px 0px; }
+    footer .row .col-md-7 ul li a div.social div#linkedin {
+      background: url("../img/linkedin.png") 0px 0px; }
+    footer .row .col-md-7 ul li a div.social div#pinterest {
+      background: url("../img/pinterest.png") 0px 0px; }
+footer .row .col-md-5 div ul {
+  display: inline-block; }
+  footer .row .col-md-5 div ul .badge1 {
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+    background-image: url("../img/app.png");
+    background-position: -149px -48px;
+    background-repeat: no; }
+  footer .row .col-md-5 div ul .badge1:hover {
+    display: inline-block;
+    height: 50px;
+    width: 150px;
+    background-image: url("../img/app.png");
+    background-position: -149px 156px;
+    background-repeat: no; }
+  footer .row .col-md-5 div ul .badge2 {
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+    background-image: url("../img/app.png");
+    background-position: 2px -51px;
+    background-repeat: no; }
+  footer .row .col-md-5 div ul .badge2:hover {
+    display: inline-block;
+    height: 60px;
+    width: 150px;
+    background-image: url("../img/app.png");
+    background-position: 0px 6px;
+    background-repeat: no; }
+
+main .bg_black {
+  height: 100vh;
+  background-color: #4c4c4c; }
+  main .bg_black .container {
+    margin-top: 0px;
+    background-color: #ffffff; }
+    main .bg_black .container .row .col-6 img {
+      margin: 0px;
+      width: 100%; }
+    main .bg_black .container .row .col-6 .row {
+      margin-bottom: 10px; }
+      main .bg_black .container .row .col-6 .row .sm {
+        color: grey; }
+      main .bg_black .container .row .col-6 .row .col-8 h4 {
+        font-size: 18px;
+        text-decoration: bold; }
+      main .bg_black .container .row .col-6 .row .col-10 h3#logtitle {
+        font-size: 30px;
+        color: #2f4858; }
+      main .bg_black .container .row .col-6 .row .col button.facebook {
+        height: 45px;
+        background-color: #3a579d;
+        width: 100%;
+        color: white; }
+        main .bg_black .container .row .col-6 .row .col button.facebook img {
+          width: 20%; }
+      main .bg_black .container .row .col-6 .row .col button.google {
+        height: 45px;
+        background-color: #db4934;
+        width: 100%;
+        color: white; }
+        main .bg_black .container .row .col-6 .row .col button.google img {
+          width: 20%; }
+      main .bg_black .container .row .col-6 .row .col-10 form .row input {
+        width: 100%; }
+
 @media screen and (max-width: 670px) {
-  section#content-someting .container-fluid .row .col-xl-6 .vertical-center {
-    padding: 50px; } }
+  header .container {
+    max-width: 300px; }
+    header .container .nav1 {
+      display: none; }
+    header .container hr {
+      display: none; }
+    header .container .nav2 div.col-2 {
+      max-width: 33.33%; }
+      header .container .nav2 div.col-2 figure svg.logo-with-gradient {
+        margin: 0px;
+        padding: 0px; }
+      header .container .nav2 div.col-2 figure svg.logo-text {
+        margin: 0px;
+        padding: 0px; }
+    header .container .nav2 div.col-6 {
+      max-width: 55.55%; }
+      header .container .nav2 div.col-6 #search {
+        margin-top: 20px; }
+    header .container .nav2 div.col-1 {
+      display: none; }
+    header .container .nav2 div.menu {
+      display: inline-block; }
+    header .container .nav2 .menu:hover {
+      pointer: pointer; }
+    header .container .nav3 .row ul li {
+      display: none; }
+
+  main .main-container {
+    max-width: 300px; }
+    main .main-container .carouselslide {
+      width: 80%; }
+
+  #grey {
+    max-width: 300px;
+    padding: 0px; }
+    #grey .row {
+      width: 280px; }
+      #grey .row h2.title {
+        margin-left: 20px; }
+    #grey .svg {
+      padding: 0px;
+      margin: 0px; }
+      #grey .svg a .col {
+        width: 50%;
+        margin: 0px; } }
+@media screen and (max-width: 1920px) {
+  header .container .nav2 .menu {
+    display: none; } }
 :root {
   font-size: 14px; }
 
